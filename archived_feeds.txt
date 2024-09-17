@@ -1,0 +1,780 @@
+feed_start_date,feed_end_date,feed_version,archive_url,archive_note
+20240905,20241214,"Fall 2024, 2024-09-12T18:38:45+00:00, version D",https://cdn.mbtace.com/archive/20240905.zip,
+20240904,20240904,"Fall 2024, 2024-09-11T16:11:07+00:00, version D",https://cdn.mbtace.com/archive/20240904.zip,
+20240828,20240903,"Fall 2024, 2024-09-04T19:08:53+00:00, version D",https://cdn.mbtace.com/archive/20240828.zip,
+20240823,20240827,"Fall 2024, 2024-08-30T19:40:26+00:00, version D",https://cdn.mbtace.com/archive/20240823.zip,
+20240816,20240822,"Fall 2024, 2024-08-23T18:24:39+00:00, version D",https://cdn.mbtace.com/archive/20240816.zip,
+20240809,20240815,"Fall 2024, 2024-08-16T19:53:52+00:00, version D",https://cdn.mbtace.com/archive/20240809.zip,"Update all_modes feed info, update patches; Fixed typo in feed info, add calendar attributes; Removed Fall test routes; Added missing 66 variant; REQUIRES INPUT: Route 42 Design Center?; Added basic boat services; Added boat service outside east boston; Additional boat. Tests not yet modified.; Revert Dec 13 emergency schedule for bus; Extend Worcester through December; gmake format; Set/tuple fix. Downloading v2 Fall rating; Extend CR rating through fall subway rating; Fix route variants; Added thanksgiving for CR and Ferry; Format; Fix direction; New service code, working shapes; Working on Thanksgiving CR; Need to figure out: Multiple calendar_ids in boat. Elixir test re: Haverhill/bradford. Red line sort order. Non-shuttle route 4 does not have a line id.; Revert to np.NaN in boat.; Fix typo; Calendar overlap on boat. Route remap on route 04.; Working on haverhill disruption; Excluded Haverhill; Demonstrating unexpected/missing service errors; Reorder boat calendar for readability; finish boat; Preliminarily done pending Alert; Fix comment; Updated tests for Boat-F1; Removed comments; Update gtfs_creator2/disruptions/disruptions.py; Delete tests/validators/Missing-shapes.csv; Delete tests/validators/missing_shapes_2.csv; Delete tests/validators/missing_shapes_3.csv; Removed comment; Need help figuring out pathway; Added wheelchair boarding; remove 'place-'; Harvard via Allston; To Nubian; Bracket; Corrections; Newline; Corrections; Sunday service fix?; Sunday service; Removed unecessary haverhill constant; Cleaning, Sunday for CR; Added day after Thanksgiving; Day after thanksgiving take two; Comment fix; Fix design center directions; Demonstration; Removed extraneous replace service; Headsign on rt 4; Harvard Station -> Harvard; trip_route_direction; Rogue comma, 'Harvard' -> 'Harvard via Allston' in trip_route_direction.csv; Headsign tweaks; Design Center -> Drydock; Headsigns, variants; Update route_variants.csv; NOT WORKING: Attempt at 116 corrections; No variant '_'. Trying 4; Via variant 1; At least one of these is variant 4. Troubleshooting; Minimal case for attempting change; Ready for review: Patches. Outstanding questions: 5735.; Extended haverhill; SSH Fix?; Added 120; Added minor variants; Removed debugging variables; 121 _ variant; format; Final tweaks; Uncomment; fix: dates for 8/25 shuttle"
+20240807,20240808,"Summer 2024, 2024-08-14T19:49:56+00:00, version D",https://cdn.mbtace.com/archive/20240807.zip,"chore: RL suspension JFK-Kendall 8/19 - 8/25/24; chore: Kendall-JFK shuttle 8/19 - 8/25/24; formatting; chore: add new route, re-sort existing routes; temp: comment out/use incorrect old date until Fall rating is added; temp: split HASTUS export into Summer and Fall, comment out Fall; chore: add 25:00 schedules"
+20240802,20240806,"Summer 2024, 2024-08-09T21:10:59+00:00, version D",https://cdn.mbtace.com/archive/20240802.zip,fix: Correct wrong-direction stop sequences etc in existing Ashmont-Mattapan shuttle definition; Add shuttle activation for 08/16-18 Mattapan shuttle; Replace Mattapan Line service during 08/16-18 suspension for track work; Add missing 25:00 info to shuttle activation; Fix formatting; Whoops! Change `ReplaceService`s from June (6) to August (8)
+20240729,20240801,"Summer 2024, 2024-08-05T15:38:21+00:00, version D",https://cdn.mbtace.com/archive/20240729.zip,revert temporary zone 1a status; revert rockport line stations as well; undelete weymouth landing; dumb fix
+20240726,20240728,"Summer 2024, 2024-08-02T21:01:07+00:00, version D",https://cdn.mbtace.com/archive/20240726.zip,"Suspend OL service btwn Back Bay and Forest Hills, 2024-08-10 to 11; Add shuttle btwn Back Bay and Forest Hills, 2024-08-10 to 11; Add missing direction_id params; ReplaceService -> Disruption; Add missing rows for new shuttle in directions.csv and routes.csv; Fix formatting; Add a missing newline"
+20240724,20240725,"Summer 2024, 2024-07-31T22:40:54+00:00, version D",https://cdn.mbtace.com/archive/20240724.zip,chore: special event schedules; chore: ongoing cr corrections
+20240719,20240723,"Summer 2024, 2024-07-26T20:03:11+00:00, version D",https://cdn.mbtace.com/archive/20240719.zip,feat: script to find stops by lat/lon; chore: move stops; chore: import kml; feat: implement august 2024 GL-B surge; chore: hastus export for GL-B surge
+20240717,20240718,"Summer 2024, 2024-07-24T14:40:25+00:00, version D",https://cdn.mbtace.com/archive/20240717.zip,
+20240716,20240716,"Summer 2024, 2024-07-23T20:21:04+00:00, version D",https://cdn.mbtace.com/archive/20240716.zip,"Updated fare media and fare behavior in /input; Confirmed new columns appear in output, added validation for filter_fare_product; Removed some debug statements; Updated test_sort_fares(); Force fix; Format; Lint; Added unit test for filter_fare_product_id in fare_products; Restoring shortening, testing for bug; Removed prints; Format; Added unit test; Format; Added negative case; Indices check"
+20240712,20240715,"Summer 2024, 2024-07-19T20:49:52+00:00, version D",https://cdn.mbtace.com/archive/20240712.zip,
+20240709,20240711,"Summer 2024, 2024-07-16T21:12:12+00:00, version D",https://cdn.mbtace.com/archive/20240709.zip,"Added shapefiles, trainsformer data; Shuttles defined; Format; Rolled back long-running disruption; Prepare shuttle for testing; Rename SimpleShuttle to be alphabetic; Add stop; Added replacement service; Typo; End dates; Added tracks; Flipped tracks; End stops; Track direction v1; Format; Track hijinx; Tracks, v2; Various fixes, API config needed; Flipped inbound stops; Format; Experiment; Experiment; Format; Attempting to add list support to  infer placement; Fixed route_short_name; No bikes; Add keep_trip_id; Update extended_shuttle_direction.py"
+20240703,20240708,"Summer 2024, 2024-07-10T21:02:11+00:00, version D",https://cdn.mbtace.com/archive/20240703.zip,"chore: add HASTUS export for RL Surge Alewife - Park; chore: update trip_route_direction.csv for new HASTUS routes; chore: add service_id to supported HASTUS service codes; Replaced KML files; Updated stop 9070070; Updated coordinates; Added new stop opposite linden; Added AlewifePark custom shuttle definition; Updated inbound stops on AlewifePark simple shuttle; Running into validation errors on Linden St Stop; Fixed swapped indexes. Validating locally; Added shuttle activation; According filenames, shuttlenames; Added manual attributes to hour 25 of activation; Switched destination in shuttle definition; Fixed shape names; Fixed shape names; Fixed shape name; Added weekday appropriately. Renamed Kendall to Kendall/MIT; Accord shuttle activations; Updated 'Park' to 'Park Street' in shuttle 'reason' field; Added missing key to activation; Removed duplicate key from master merge; Added running time between Davis & Alewife"
+20240702,20240702,"Summer 2024, 2024-07-09T21:43:50+00:00, version D",https://cdn.mbtace.com/archive/20240702.zip,
+20240627,20240701,"Summer 2024, 2024-07-04T03:23:21+00:00, version D",https://cdn.mbtace.com/archive/20240627.zip,
+20240626,20240626,"Summer 2024, 2024-07-03T19:39:40+00:00, version D",https://cdn.mbtace.com/archive/20240626.zip,chore: No timeframes for default fares; chore: Scaffolding for Sumner Tunnel fare period; chore: Subway fare changes for Sumner Tunnel closure; chore: Commuter Rail fare changes for Sumner Tunnel closure; chore: Free fares systemwide after 21:30 on 4 July; chore: Free fares North Station–Porter 13–28 July
+20240625,20240625,"Summer 2024, 2024-07-02T21:23:09+00:00, version D",https://cdn.mbtace.com/archive/20240625.zip,"chore: add CR July 4 schedules; chore: add ReplaceService for July 4 CR schedules, remove July 5 for CapeFlyer; chore: add special service for Cape-Flyer on July 4th; fix: remove duplicate service prefix and fix typo"
+20240613,20240624,"Summer 2024, 2024-06-20T21:13:16+00:00, version D",https://cdn.mbtace.com/archive/20240613.zip,chore: Disruption for celtics victory parade; Newlines for linting; Update ratings.py; Tweaks; V2; Crash demonstration; New errors; Error demonstration 1; Working?; Moved from TMP to CR disruptions; Removed debug comments; Update disruptions.py; Update disruptions.py; Add franklin; Update disruptions.py; Update disruptions.py
+20240611,20240612,"Summer 2024, 2024-06-18T14:57:22+00:00, version D",https://cdn.mbtace.com/archive/20240611.zip,feat: OL TIP Wellington-North Station Shuttles 6/24-6/30; fix: Set correct date for Sunday 6/30 service replacement
+20240607,20240610,"Summer 2024, 2024-06-14T21:51:57+00:00, version D",https://cdn.mbtace.com/archive/20240607.zip,chore: North Station-Oak Grove custom shuttle; fix: direction; fix: unique route name; chore: HASTUS diversion schedule; fix: download HASTUS export
+20240531,20240606,"Summer 2024, 2024-06-07T20:59:32+00:00, version D",https://cdn.mbtace.com/archive/20240531.zip,"Updated patches for Summer 2024 rating; Updated feed_info; Updated calendar_attributes.py with summer rating; Updated boat calendar; Added service codes; Reverted bus and heavy rail alternate schedules; Hiding newly created utility folder that I'm using to test scripts; Updated Columbus day to IPD, which public-facing communications seem to use; Added July 4; Added ferry holiday disruptions; Extended validation date on boat and CR. Where to find transfer.txt?; Added replace service = none for needham heights; Added additional shovel to cover forest hills - needham heights. Added Providence to transfer exemption list. Will this have to be removed later?; Formatted; Need help validating needham; Help with Needham validation take two; Working, hopefully; Switched tracks on Needham disruption; Jk jk; Formatter; Update disruptions.py; Simpler fixes per Josh; Removed unused patch routes; Fixes w/ Josh; Forgot to update the rating key; Fixes per Josh; 1817 still needed in Spring rating; Format"
+20240527,20240530,"Spring 2024, 2024-06-03T21:50:26+00:00, version D",https://cdn.mbtace.com/archive/20240527.zip,"chore: ðŸš§ðŸŸ  OL Signals, Oak Grove to North Station, EA-weekend June 7-9; fix: update disruption config to take into account sat / sun schedules; chore: remove prior shuttle, rename to differentiate from prior activation; fix: rename shuttle; fix: remove old activation; fix: keep existing shuttle from the past; chore: fix last trip typo; Revert ""fix: keep existing shuttle from the past"""
+20240521,20240526,"Spring 2024, 2024-05-28T21:24:51+00:00, version D",https://cdn.mbtace.com/archive/20240521.zip,chore: Added Harvard-Alewife Disruption for Jun 1; fix: allow shuttles in different ratings
+20240517,20240520,"Spring 2024, 2024-05-24T21:46:26+00:00, version D",https://cdn.mbtace.com/archive/20240517.zip,"chore: Needham suspension; wip: Needham Line shuttle Forest Hills to Newton Highlands; wip: whitespace; wip: whitespace; wip: formatting; chore: shapes, new stops, route and direction ID; chore: shapes, stops; temp: activate suspend SimpleShuttle; temp: import suspend; chore: shorten service ID; chore: change Needham Junction stop location; chore: change of plans for stops and route, parent stops; chore: parent stop for Newton Highlands shuttle; chore: validator exception for Needham suspension; chore: validate test; chore: flip Bellevue stop names; chore: move Needham Heights stops to match bus stop reality; chore: adjust dates; chore: remove temp suspension replaced by Arrow; fix: remove unused dependency"
+20240515,20240516,"Spring 2024, 2024-05-22T20:22:34+00:00, version D",https://cdn.mbtace.com/archive/20240515.zip,
+20240514,20240514,"Spring 2024, 2024-05-21T23:34:57+00:00, version D",https://cdn.mbtace.com/archive/20240514.zip,"fix: Correctly map direction IDs to shape IDs for NorthStationOakGrove shuttle; Remove an unneeded comment from my previous PR :sweat_smile:; fix: Correctly map direction IDs to destinations for NorthStationOakGrove shuttle; fix: Correct southern destination for NorthStationOakGrove shuttle: Forest Hills -> North Station; tweak: OL Maffa EA weekday work now ends Thu 5-23, not Fri 5-24; Change destination to a human-readable string; Change destination to a human-readable string; tweak: Shuttle for OL Maffa EA weekday work now ends Thu 5-23, not Fri 5-24"
+20240508,20240513,"Spring 2024, 2024-05-15T17:52:02+00:00, version D",https://cdn.mbtace.com/archive/20240508.zip,
+20240507,20240507,"Spring 2024, 2024-05-14T19:29:52+00:00, version D",https://cdn.mbtace.com/archive/20240507.zip,chore: run Bridgewater/Middleburough shuttles May 18; tmp: activate suspention
+20240503,20240506,"Spring 2024, 2024-05-10T21:16:19+00:00, version D",https://cdn.mbtace.com/archive/20240503.zip,"tweak: Some small fixes/improvements for shuttle activation/import scripts; shuttle OL North Station-Oak Grove 2024-05-17; Simplify deactivate_on param for 1-day service replacements; Update HASTUS export reference to new, convention-adhering name; Add missing trip_route_direction entries; Add ""on"" description code; Fix last trip times--12 -> 24; Fix weekday shuttle start times ~5:30 -> 20:30; fix: Formatting; Revert changes to shuttle_import stop_headers list"
+20240425,20240502,"Spring 2024, 2024-05-02T15:39:12+00:00, version D",https://cdn.mbtace.com/archive/20240425.zip,
+20240418,20240424,"Spring 2024, 2024-04-25T20:43:50+00:00, version D",https://cdn.mbtace.com/archive/20240418.zip,
+20240416,20240417,"Spring 2024, 2024-04-23T19:58:43+00:00, version D",https://cdn.mbtace.com/archive/20240416.zip,
+20240412,20240415,"Spring 2024, 2024-04-19T17:47:28+00:00, version D",https://cdn.mbtace.com/archive/20240412.zip,feat: shuttle Bridgewater-Lakeville 4/27-5/5/24; feat: trip_short_names
+20240409,20240411,"Spring 2024, 2024-04-16T22:42:19+00:00, version D",https://cdn.mbtace.com/archive/20240409.zip,
+20240405,20240408,"Spring 2024, 2024-04-12T21:46:12+00:00, version D",https://cdn.mbtace.com/archive/20240405.zip,
+20240402,20240404,"Spring 2024, 2024-04-09T16:03:55+00:00, version D",https://cdn.mbtace.com/archive/20240402.zip,
+20240329,20240401,"Spring 2024, 2024-04-05T19:32:20+00:00, version D",https://cdn.mbtace.com/archive/20240329.zip,
+20240327,20240328,"Spring 2024, 2024-04-03T19:12:34+00:00, version D",https://cdn.mbtace.com/archive/20240327.zip,
+20240321,20240326,"Spring 2024, 2024-03-28T20:55:48+00:00, version D",https://cdn.mbtace.com/archive/20240321.zip,
+20240319,20240320,"Spring 2024, 2024-03-26T19:58:48+00:00, version D",https://cdn.mbtace.com/archive/20240319.zip,* chore: add new rating exports; * chore: add patches to new hastus rating; * chore: update feed info; * chore: update calendar attributes; * chore: update cr rating end date; * chore: update trip headsigns; * chore: update boat ratings; * chore: update validations for ferry trips; * chore: revert reduced schedules; * chore: add memorial day holiday
+20240315,20240318,"Winter 2024, 2024-03-22T15:39:34+00:00, version D",https://cdn.mbtace.com/archive/20240315.zip,
+20240313,20240314,"Winter 2024, 2024-03-20T20:13:35+00:00, version D",https://cdn.mbtace.com/archive/20240313.zip,
+20240311,20240312,"Winter 2024, 2024-03-18T20:42:29+00:00, version D",https://cdn.mbtace.com/archive/20240311.zip,load modified RL schedule from HASTUS; RL Shuttles Broadway to Ashmont/North Quincy
+20240307,20240310,"Winter 2024, 2024-03-14T15:46:34+00:00, version D",https://cdn.mbtace.com/archive/20240307.zip,
+20240306,20240306,"Winter 2024, 2024-03-13T17:05:06+00:00, version D",https://cdn.mbtace.com/archive/20240306.zip,
+20240304,20240305,"Winter 2024, 2024-03-11T18:13:04+00:00, version D",https://cdn.mbtace.com/archive/20240304.zip,
+20240228,20240303,"Winter 2024, 2024-03-06T21:22:31+00:00, version D",https://cdn.mbtace.com/archive/20240228.zip,
+20240226,20240227,"Winter 2024, 2024-03-04T22:02:50+00:00, version D",https://cdn.mbtace.com/archive/20240226.zip,
+20240220,20240225,"Winter 2024, 2024-02-27T22:34:17+00:00, version D",https://cdn.mbtace.com/archive/20240220.zip,"#### Summary of changes; **Asana Ticket:** [ðŸš§ðŸŸ£ Worcester Line weekend work: Saturday March 2, Framingham to South Station](https://app.asana.com/0/584764604969369/1206300268878630/f); Adds shuttle shapes and disrupted trips and stop times for the Worcester line disruption on 2024-03-02.; #### Reviewer Checklist; - [ ] Meets ticket's acceptance criteria; - [ ] Tests were added for any new functionality; - [ ] [GTFS documentation](https://github.com/mbta/gtfs-documentation/) has a PR (if data is added/changed); - [ ] Relevant stakeholders are notified (if data is changed); - [ ] Changes are verified on schedule_viewer or PartnerDash"
+20240215,20240219,"Winter 2024, 2024-02-22T22:13:26+00:00, version D",https://cdn.mbtace.com/archive/20240215.zip,
+20240209,20240214,"Winter 2024, 2024-02-16T20:30:00+00:00, version D",https://cdn.mbtace.com/archive/20240209.zip,
+20240208,20240208,"Winter 2024, 2024-02-15T20:17:59+00:00, version D",https://cdn.mbtace.com/archive/20240208.zip,
+20240205,20240207,"Winter 2024, 2024-02-12T21:14:36+00:00, version D",https://cdn.mbtace.com/archive/20240205.zip,
+20240202,20240204,"Winter 2024, 2024-02-09T19:11:01+00:00, version D",https://cdn.mbtace.com/archive/20240202.zip,
+20240201,20240201,"Winter 2024, 2024-02-08T18:21:00+00:00, version D",https://cdn.mbtace.com/archive/20240201.zip,
+20240127,20240131,"Winter 2024, 2024-02-03T02:07:36+00:00, version D",https://cdn.mbtace.com/archive/20240127.zip,
+20240125,20240126,"Winter 2024, 2024-02-01T22:31:23+00:00, version D",https://cdn.mbtace.com/archive/20240125.zip,"wip: Lowell-North Station express and local shuttles, and suspension of; comment: steps for adding new route_id; temp: add LowellNorthStationSuspend for testing; wip: redo schedule with changes from RR Ops; wip: diversion reason includes dates for dotcom schedule picker; wip: revert temp disruption; fix: remove Lowell validator exception since suspension will be in Arrow; chore: validator expects Lowell suspension 2/10-2/11/24"
+20240124,20240124,"Winter 2024, 2024-01-31T17:47:41+00:00, version D",https://cdn.mbtace.com/archive/20240124.zip,chore: update 'make validate' to be most commonly run validation (without ods); test: fix hastus pending stop and route changes tests by using a date in the future
+20240111,20240123,"Winter 2024, 2024-01-18T23:20:04+00:00, version D",https://cdn.mbtace.com/archive/20240111.zip,
+20240105,20240110,"Winter 2024, 2024-01-12T22:28:00+00:00, version D",https://cdn.mbtace.com/archive/20240105.zip,"Also updates the name of the project so it can be properly installed in the; venv, as required by Poetry 1.7: https://github.com/python-poetry/poetry/pull/8369"
+20240103,20240104,"Winter 2024, 2024-01-10T20:49:01+00:00, version D",https://cdn.mbtace.com/archive/20240103.zip,
+20240102,20240102,"Winter 2024, 2024-01-09T23:51:02+00:00, version D",https://cdn.mbtace.com/archive/20240102.zip,
+20240101,20240101,"Winter 2024, 2024-01-08T23:07:00+00:00, version D",https://cdn.mbtace.com/archive/20240101.zip,
+20231229,20231231,"Winter 2024, 2024-01-05T22:01:24+00:00, version D",https://cdn.mbtace.com/archive/20231229.zip,This reverts commit 898b3de15819cd197d11aaeaaeef01c730145a3e.
+20231226,20231228,"Winter 2024, 2024-01-02T23:35:57+00:00, version D",https://cdn.mbtace.com/archive/20231226.zip,
+20231221,20231225,"Winter 2024, 2023-12-28T22:00:45+00:00, version D",https://cdn.mbtace.com/archive/20231221.zip,chore: add ReplaceService for Jan 8 for CR-Franklin and CR-Providence; fix: add back all CR-Needham trips for multi-route-trips 633 and 635
+20231215,20231220,"Winter 2024, 2023-12-22T20:36:54+00:00, version D",https://cdn.mbtace.com/archive/20231215.zip,
+20231211,20231214,"Winter 2024, 2023-12-18T22:13:26+00:00, version D",https://cdn.mbtace.com/archive/20231211.zip,
+20231208,20231210,"Winter 2024, 2023-12-15T23:31:17+00:00, version D",https://cdn.mbtace.com/archive/20231208.zip,**Asana Ticket:** [ðŸš§ ðŸŸ£ðŸˆ Patriots Sunday event train 12/17](https://app.asana.com/0/584764604969369/1205632395633027/f); Added the export along with a `ReplaceService` for `CR-Foxboro`.; - [ ] Meets ticket's acceptance criteria; - [ ] Tests were added for any new functionality; - [ ] [GTFS documentation](https://github.com/mbta/gtfs-documentation/) has a PR (if data is added/changed); - [ ] Relevant stakeholders are notified (if data is changed); - [ ] Changes are verified on schedule_viewer or PartnerDash
+20231205,20231207,"Winter 2024, 2023-12-12T21:55:09+00:00, version D",https://cdn.mbtace.com/archive/20231205.zip,
+20231203,20231204,"Winter 2024, 2023-12-10T19:12:21+00:00, version D",https://cdn.mbtace.com/archive/20231203.zip,
+20231202,20231202,"Winter 2024, 2023-12-09T02:51:25+00:00, version D",https://cdn.mbtace.com/archive/20231202.zip,
+20231130,20231201,"Fall 2023, 2023-12-07T22:35:17+00:00, version D",https://cdn.mbtace.com/archive/20231130.zip,
+20231128,20231129,"Fall 2023, 2023-12-05T18:45:28+00:00, version D",https://cdn.mbtace.com/archive/20231128.zip,
+20231127,20231127,"Fall 2023, 2023-12-04T21:09:26+00:00, version D",https://cdn.mbtace.com/archive/20231127.zip,
+20231125,20231126,"Fall 2023, 2023-12-02T00:45:19+00:00, version D",https://cdn.mbtace.com/archive/20231125.zip,
+20231116,20231124,"Fall 2023, 2023-11-23T01:21:12+00:00, version D",https://cdn.mbtace.com/archive/20231116.zip,
+20231114,20231115,"Fall 2023, 2023-11-21T20:49:57+00:00, version D",https://cdn.mbtace.com/archive/20231114.zip,
+20231110,20231113,"Fall 2023, 2023-11-17T22:02:16+00:00, version D",https://cdn.mbtace.com/archive/20231110.zip,
+20231108,20231109,"Fall 2023, 2023-11-15T23:36:29+00:00, version D",https://cdn.mbtace.com/archive/20231108.zip,
+20231102,20231107,"Fall 2023, 2023-11-09T20:01:49+00:00, version D",https://cdn.mbtace.com/archive/20231102.zip,
+20231031,20231101,"Fall 2023, 2023-11-07T00:32:56+00:00, version D",https://cdn.mbtace.com/archive/20231031.zip,
+20231027,20231030,"Fall 2023, 2023-11-03T19:18:06+00:00, version D",https://cdn.mbtace.com/archive/20231027.zip,
+20231020,20231026,"Fall 2023, 2023-10-27T21:08:29+00:00, version D",https://cdn.mbtace.com/archive/20231020.zip,
+20231011,20231019,"Fall 2023, 2023-10-18T22:53:55+00:00, version D",https://cdn.mbtace.com/archive/20231011.zip,
+20231004,20231010,"Fall 2023, 2023-10-11T16:33:07+00:00, version D",https://cdn.mbtace.com/archive/20231004.zip,
+20231003,20231003,"Fall 2023, 2023-10-10T21:34:03+00:00, version D",https://cdn.mbtace.com/archive/20231003.zip,
+20230928,20231002,"Fall 2023, 2023-10-05T19:39:12+00:00, version D",https://cdn.mbtace.com/archive/20230928.zip,
+20230922,20230927,"Fall 2023, 2023-09-29T22:07:08+00:00, version D",https://cdn.mbtace.com/archive/20230922.zip,
+20230921,20230921,"Fall 2023, 2023-09-28T22:52:29+00:00, version D",https://cdn.mbtace.com/archive/20230921.zip,
+20230914,20230920,"Fall 2023, 2023-09-21T17:56:44+00:00, version D",https://cdn.mbtace.com/archive/20230914.zip,chore: New Lynn - Swampscott schedule from Oct 2nd
+20230912,20230913,"Fall 2023, 2023-09-19T17:19:43+00:00, version D",https://cdn.mbtace.com/archive/20230912.zip,
+20230911,20230911,"Fall 2023, 2023-09-18T17:01:02+00:00, version D",https://cdn.mbtace.com/archive/20230911.zip,
+20230908,20230910,"Fall 2023, 2023-09-15T20:27:57+00:00, version D",https://cdn.mbtace.com/archive/20230908.zip,
+20230907,20230907,"Fall 2023, 2023-09-14T23:42:02+00:00, version D",https://cdn.mbtace.com/archive/20230907.zip,
+20230906,20230906,"Fall 2023, 2023-09-13T21:33:10+00:00, version D",https://cdn.mbtace.com/archive/20230906.zip,
+20230904,20230905,"Fall 2023, 2023-09-11T20:34:59+00:00, version D",https://cdn.mbtace.com/archive/20230904.zip,
+20230901,20230903,"Fall 2023, 2023-09-08T19:56:18+00:00, version D",https://cdn.mbtace.com/archive/20230901.zip,
+20230831,20230831,"Fall 2023, 2023-09-07T16:54:59+00:00, version D",https://cdn.mbtace.com/archive/20230831.zip,
+20230830,20230830,"Fall 2023, 2023-09-06T22:58:42+00:00, version D",https://cdn.mbtace.com/archive/20230830.zip,feat: add NorthStationSwampscottExtended shuttle; add lynn closure exception dates; add route_pattern typicality override for haverhill
+20230825,20230829,"Fall 2023, 2023-09-01T16:18:17+00:00, version D",https://cdn.mbtace.com/archive/20230825.zip,
+20230824,20230824,"Fall 2023, 2023-08-31T22:54:19+00:00, version D",https://cdn.mbtace.com/archive/20230824.zip,chore: Update Lynn and Winthrop ferry schedules
+20230822,20230823,"Fall 2023, 2023-08-29T22:49:46+00:00, version D",https://cdn.mbtace.com/archive/20230822.zip,
+20230819,20230821,"Fall 2023, 2023-08-26T16:45:17+00:00, version D",https://cdn.mbtace.com/archive/20230819.zip,
+20230817,20230818,"Fall 2023, 2023-08-24T22:58:28+00:00, version D",https://cdn.mbtace.com/archive/20230817.zip,chore: extend summer disruptions into fall rating
+20230815,20230816,"Fall 2023, 2023-08-22T00:48:07+00:00, version D",https://cdn.mbtace.com/archive/20230815.zip,chore: Fall 2023 rating
+20230810,20230814,"Summer 2023, 2023-08-17T14:12:48+00:00, version D",https://cdn.mbtace.com/archive/20230810.zip,
+20230804,20230809,"Summer 2023, 2023-08-11T14:53:30+00:00, version D",https://cdn.mbtace.com/archive/20230804.zip,
+20230728,20230803,"Summer 2023, 2023-08-04T23:14:16+00:00, version D",https://cdn.mbtace.com/archive/20230728.zip,
+20230727,20230727,"Summer 2023, 2023-08-03T21:53:42+00:00, version D",https://cdn.mbtace.com/archive/20230727.zip,
+20230721,20230726,"Summer 2023, 2023-07-28T17:17:53+00:00, version D",https://cdn.mbtace.com/archive/20230721.zip,
+20230713,20230720,"Summer 2023, 2023-07-20T20:11:21+00:00, version D",https://cdn.mbtace.com/archive/20230713.zip,
+20230712,20230712,"Summer 2023, 2023-07-19T19:29:11+00:00, version D",https://cdn.mbtace.com/archive/20230712.zip,Chore: change ER-0046 stop ID
+20230707,20230711,"Summer 2023, 2023-07-14T17:44:52+00:00, version D",https://cdn.mbtace.com/archive/20230707.zip,chore: Braintreeâ€“Quincy Center shuttle changes
+20230705,20230706,"Summer 2023, 2023-07-12T22:45:57+00:00, version D",https://cdn.mbtace.com/archive/20230705.zip,
+20230703,20230704,"Summer 2023, 2023-07-10T20:39:56+00:00, version D",https://cdn.mbtace.com/archive/20230703.zip,
+20230701,20230702,"Summer 2023, 2023-07-08T15:26:29+00:00, version D",https://cdn.mbtace.com/archive/20230701.zip,
+20230629,20230630,"Summer 2023, 2023-07-06T20:44:15+00:00, version D",https://cdn.mbtace.com/archive/20230629.zip,
+20230627,20230628,"Summer 2023, 2023-07-04T23:31:02+00:00, version D",https://cdn.mbtace.com/archive/20230627.zip,"chore: Blue Line, Ferry, Bus fare changes for Sumner Tunnel"
+20230623,20230626,"Summer 2023, 2023-06-30T21:17:25+00:00, version D",https://cdn.mbtace.com/archive/20230623.zip,
+20230622,20230622,"Summer 2023, 2023-06-29T23:32:49+00:00, version D",https://cdn.mbtace.com/archive/20230622.zip,
+20230620,20230621,"Summer 2023, 2023-06-27T18:24:45+00:00, version D",https://cdn.mbtace.com/archive/20230620.zip,
+20230619,20230619,"Summer 2023, 2023-06-26T16:27:17+00:00, version D",https://cdn.mbtace.com/archive/20230619.zip,chore: Summer 2023 Rating
+20230614,20230618,"Spring 2023, 2023-06-21T00:35:11+00:00, version D",https://cdn.mbtace.com/archive/20230614.zip,
+20230609,20230613,"Spring 2023, 2023-06-16T21:20:49+00:00, version D",https://cdn.mbtace.com/archive/20230609.zip,
+20230607,20230608,"Spring 2023, 2023-06-14T12:49:21+00:00, version D",https://cdn.mbtace.com/archive/20230607.zip,
+20230602,20230606,"Spring 2023, 2023-06-09T00:08:40+00:00, version D",https://cdn.mbtace.com/archive/20230602.zip,
+20230530,20230601,"Spring 2023, 2023-06-06T21:53:00+00:00, version D",https://cdn.mbtace.com/archive/20230530.zip,
+20230526,20230529,"Spring 2023, 2023-06-02T18:16:09+00:00, version D",https://cdn.mbtace.com/archive/20230526.zip,
+20230525,20230525,"Spring 2023, 2023-06-01T01:49:14+00:00, version D",https://cdn.mbtace.com/archive/20230525.zip,
+20230523,20230524,"Spring 2023, 2023-05-30T23:25:44+00:00, version D",https://cdn.mbtace.com/archive/20230523.zip,
+20230519,20230522,"Spring 2023, 2023-05-26T21:03:32+00:00, version D",https://cdn.mbtace.com/archive/20230519.zip,
+20230512,20230518,"Spring 2023, 2023-05-19T19:36:10+00:00, version D",https://cdn.mbtace.com/archive/20230512.zip,
+20230510,20230511,"Spring 2023, 2023-05-17T22:20:35+00:00, version D",https://cdn.mbtace.com/archive/20230510.zip,add canonical trips to gtfs creator output; add wheelchair_accessible and bikes_allowed columns to canonical input; re enable validators and skip block id validation for canonical trips; fix: ignore canonical w/ missing block_id; fix: canonical routes should always have a trip linked; fix: ignore missing short names for CR canonical trips; add additional digit in route_pattern_sort_order to help with ordering route patterns; don't shorten canonical service id; validate canonical trips don't have short name; move canonical sort digit to end of route_pattern_sort_order; update block_id validation for canonical trips; override sort order for multi branch routes for commuter rail; consolidate canonical trips/patterns; add branched route sort order validation; fix: Adjust CR canonical trips and shapes; set remaining patterns of a route to 2 after canonical pattern has been set to 1; validate canonical_route_pattern values
+20230505,20230509,"Spring 2023, 2023-05-12T20:59:24+00:00, version D",https://cdn.mbtace.com/archive/20230505.zip,"chore: RL, CR weeknight shuttle cancellations, May 15-18"
+20230504,20230504,"Spring 2023, 2023-05-11T16:38:58+00:00, version D",https://cdn.mbtace.com/archive/20230504.zip,
+20230428,20230503,"Spring 2023, 2023-05-05T13:52:18+00:00, version D",https://cdn.mbtace.com/archive/20230428.zip,
+20230425,20230427,"Spring 2023, 2023-05-02T16:43:35+00:00, version D",https://cdn.mbtace.com/archive/20230425.zip,
+20230417,20230424,"Spring 2023, 2023-04-24T21:42:57+00:00, version D",https://cdn.mbtace.com/archive/20230417.zip,
+20230414,20230416,"Spring 2023, 2023-04-21T22:17:30+00:00, version D",https://cdn.mbtace.com/archive/20230414.zip,
+20230412,20230413,"Spring 2023, 2023-04-19T03:01:55+00:00, version D",https://cdn.mbtace.com/archive/20230412.zip,"Red Line JFK - Kendall shuttles, Weekends Apr 22-30"
+20230409,20230411,"Spring 2023, 2023-04-16T15:34:06+00:00, version D",https://cdn.mbtace.com/archive/20230409.zip,"Red Line JFK - Kendall shuttles, Weekends Apr 22-30"
+20230408,20230408,"Spring 2023, 2023-04-15T01:31:03+00:00, version D",https://cdn.mbtace.com/archive/20230408.zip,"Red Line JFK - Kendall shuttles, Weekends Apr 22-30"
+20230406,20230407,"Spring 2023, 2023-04-13T19:56:09+00:00, version D",https://cdn.mbtace.com/archive/20230406.zip,
+20230405,20230405,"Spring 2023, 2023-04-12T23:42:46+00:00, version D",https://cdn.mbtace.com/archive/20230405.zip,
+20230404,20230404,"Spring 2023, 2023-04-11T21:45:36+00:00, version D",https://cdn.mbtace.com/archive/20230404.zip,
+20230401,20230403,"Spring 2023, 2023-04-08T20:36:21+00:00, version D",https://cdn.mbtace.com/archive/20230401.zip,"Wonderland - Govt Center shuttles, April weeknights"
+20230329,20230331,"Spring 2023, 2023-04-05T14:55:48+00:00, version D",https://cdn.mbtace.com/archive/20230329.zip,chore: fix alerts ui integration for prod deploys
+20230327,20230328,"Spring 2023, 2023-04-03T20:35:04+00:00, version D",https://cdn.mbtace.com/archive/20230327.zip,
+20230324,20230326,"Spring 2023, 2023-03-31T22:30:52+00:00, version D",https://cdn.mbtace.com/archive/20230324.zip,
+20230322,20230323,"Spring 2023, 2023-03-29T22:00:28+00:00, version D",https://cdn.mbtace.com/archive/20230322.zip,
+20230320,20230321,"Spring 2023, 2023-03-27T20:44:38+00:00, version D",https://cdn.mbtace.com/archive/20230320.zip,
+20230316,20230319,"Spring 2023, 2023-03-23T18:01:41+00:00, version D",https://cdn.mbtace.com/archive/20230316.zip,
+20230312,20230315,"Spring 2023, 2023-03-19T15:01:38+00:00, version D",https://cdn.mbtace.com/archive/20230312.zip,
+20230310,20230311,"Spring 2023, 2023-03-17T22:51:15+00:00, version D",https://cdn.mbtace.com/archive/20230310.zip,
+20230306,20230309,"Spring 2023, 2023-03-13T23:03:25+00:00, version D",https://cdn.mbtace.com/archive/20230306.zip,
+20230303,20230305,"Spring 2023, 2023-03-10T23:21:37+00:00, version D",https://cdn.mbtace.com/archive/20230303.zip,
+20230302,20230302,"Spring 2023, 2023-03-09T15:23:03+00:00, version D",https://cdn.mbtace.com/archive/20230302.zip,
+20230227,20230301,"Spring 2023, 2023-03-06T23:15:39+00:00, version D",https://cdn.mbtace.com/archive/20230227.zip,fix: Rename to Kingston Line in Alerts UI
+20230224,20230226,"Winter 2023, 2023-03-03T22:28:10+00:00, version D",https://cdn.mbtace.com/archive/20230224.zip,
+20230221,20230223,"Winter 2023, 2023-02-28T20:41:12+00:00, version D",https://cdn.mbtace.com/archive/20230221.zip,
+20230216,20230220,"Winter 2023, 2023-02-23T14:15:58+00:00, version D",https://cdn.mbtace.com/archive/20230216.zip,
+20230203,20230215,"Winter 2023, 2023-02-10T23:40:14+00:00, version D",https://cdn.mbtace.com/archive/20230203.zip,
+20230202,20230202,"Winter 2023, 2023-02-09T22:15:13+00:00, version D",https://cdn.mbtace.com/archive/20230202.zip,
+20230131,20230201,"Winter 2023, 2023-02-07T22:51:26+00:00, version D",https://cdn.mbtace.com/archive/20230131.zip,
+20230130,20230130,"Winter 2023, 2023-02-06T18:23:45+00:00, version D",https://cdn.mbtace.com/archive/20230130.zip,
+20230128,20230129,"Winter 2023, 2023-02-04T23:22:58+00:00, version D",https://cdn.mbtace.com/archive/20230128.zip,Removes Haverhill-Reading february service changes
+20230127,20230127,"Winter 2023, 2023-02-03T23:00:24+00:00, version D",https://cdn.mbtace.com/archive/20230127.zip,
+20230125,20230126,"Winter 2023, 2023-02-01T21:58:20+00:00, version D",https://cdn.mbtace.com/archive/20230125.zip,
+20230124,20230124,"Winter 2023, 2023-01-31T21:30:41+00:00, version D",https://cdn.mbtace.com/archive/20230124.zip,Haverhill Line shuttles Feb / Mar
+20230117,20230123,"Winter 2023, 2023-01-24T19:50:21+00:00, version D",https://cdn.mbtace.com/archive/20230117.zip,
+20230104,20230116,"Winter 2023, 2023-01-11T19:54:42+00:00, version D",https://cdn.mbtace.com/archive/20230104.zip,Fix dev environment alerts_ui step
+20221229,20230103,"Winter 2023, 2023-01-05T00:13:26+00:00, version D",https://cdn.mbtace.com/archive/20221229.zip,
+20221222,20221228,"Winter 2023, 2022-12-29T20:41:26+00:00, version D",https://cdn.mbtace.com/archive/20221222.zip,
+20221215,20221221,"Winter 2023, 2022-12-22T20:50:07+00:00, version D",https://cdn.mbtace.com/archive/20221215.zip,
+20221213,20221214,"Winter 2023, 2022-12-20T21:42:42+00:00, version D",https://cdn.mbtace.com/archive/20221213.zip,
+20221209,20221212,"Winter 2023, 2022-12-16T17:32:20+00:00, version D",https://cdn.mbtace.com/archive/20221209.zip,
+20221206,20221208,"Winter 2023, 2022-12-13T16:56:35+00:00, version D",https://cdn.mbtace.com/archive/20221206.zip,
+20221201,20221205,"Fall 2022, 2022-12-08T14:19:41+00:00, version D",https://cdn.mbtace.com/archive/20221201.zip,
+20221128,20221130,"Fall 2022, 2022-12-05T17:11:55+00:00, version D",https://cdn.mbtace.com/archive/20221128.zip,
+20221124,20221127,"Fall 2022, 2022-12-01T19:25:40+00:00, version D",https://cdn.mbtace.com/archive/20221124.zip,
+20221123,20221123,"Fall 2022, 2022-11-30T23:33:25+00:00, version D",https://cdn.mbtace.com/archive/20221123.zip,
+20221121,20221122,"Fall 2022, 2022-11-28T21:42:55+00:00, version D",https://cdn.mbtace.com/archive/20221121.zip,
+20221114,20221120,"Fall 2022, 2022-11-21T16:03:11+00:00, version D",https://cdn.mbtace.com/archive/20221114.zip,
+20221109,20221113,"Fall 2022, 2022-11-16T22:55:15+00:00, version D",https://cdn.mbtace.com/archive/20221109.zip,
+20221104,20221108,"Fall 2022, 2022-11-11T00:37:40+00:00, version D",https://cdn.mbtace.com/archive/20221104.zip,
+20221029,20221103,"Fall 2022, 2022-11-05T03:12:06+00:00, version D",https://cdn.mbtace.com/archive/20221029.zip,This reverts commit 8506f060d45f2e759611b4a33121472c883605e8.
+20221028,20221028,"Fall 2022, 2022-11-04T16:10:24+00:00, version D",https://cdn.mbtace.com/archive/20221028.zip,
+20221021,20221027,"Fall 2022, 2022-10-28T15:09:03+00:00, version D",https://cdn.mbtace.com/archive/20221021.zip,This reverts commit 379f9926dad30a2487f01ffcdd4fc0a8599dde23.
+20221020,20221020,"Fall 2022, 2022-10-27T19:21:22+00:00, version D",https://cdn.mbtace.com/archive/20221020.zip,
+20221019,20221019,"Fall 2022, 2022-10-26T21:12:12+00:00, version D",https://cdn.mbtace.com/archive/20221019.zip,
+20221013,20221018,"Fall 2022, 2022-10-20T16:01:16+00:00, version D",https://cdn.mbtace.com/archive/20221013.zip,
+20221011,20221012,"Fall 2022, 2022-10-18T23:51:32+00:00, version D",https://cdn.mbtace.com/archive/20221011.zip,
+20221007,20221010,"Fall 2022, 2022-10-14T18:44:34+00:00, version D",https://cdn.mbtace.com/archive/20221007.zip,
+20221005,20221006,"Fall 2022, 2022-10-12T21:43:54+00:00, version D",https://cdn.mbtace.com/archive/20221005.zip,
+20220929,20221004,"Fall 2022, 2022-10-06T19:11:54+00:00, version D",https://cdn.mbtace.com/archive/20220929.zip,
+20220923,20220928,"Fall 2022, 2022-09-30T22:53:11+00:00, version D",https://cdn.mbtace.com/archive/20220923.zip,
+20220922,20220922,"Fall 2022, 2022-09-29T00:24:48+00:00, version D",https://cdn.mbtace.com/archive/20220922.zip,
+20220916,20220921,"Fall 2022, 2022-09-23T21:26:57+00:00, version D",https://cdn.mbtace.com/archive/20220916.zip,
+20220914,20220915,"Fall 2022, 2022-09-21T22:41:28+00:00, version D",https://cdn.mbtace.com/archive/20220914.zip,
+20220913,20220913,"Fall 2022, 2022-09-20T00:58:06+00:00, version D",https://cdn.mbtace.com/archive/20220913.zip,Post Orange Line surge weekday schedules for south side Commuter Rail
+20220908,20220912,"Fall 2022, 2022-09-15T20:31:21+00:00, version D",https://cdn.mbtace.com/archive/20220908.zip,
+20220906,20220907,"Fall 2022, 2022-09-13T20:09:17+00:00, version D",https://cdn.mbtace.com/archive/20220906.zip,
+20220905,20220905,"Fall 2022, 2022-09-12T17:08:07+00:00, version D",https://cdn.mbtace.com/archive/20220905.zip,
+20220901,20220904,"Fall 2022, 2022-09-08T17:20:26+00:00, version D",https://cdn.mbtace.com/archive/20220901.zip,add hastus exports; add CR-Franklin disruption; Add OL Surge replacement services for 9-12 to 9-16; remove excess replacement service ids; remove tbd service id; remove foxboro pilot inputs; remove ReplaceService that isn't ready to implement yet
+20220826,20220831,"Fall 2022, 2022-09-02T21:28:36+00:00, version D",https://cdn.mbtace.com/archive/20220826.zip,
+20220825,20220825,"Fall 2022, 2022-09-01T00:17:10+00:00, version D",https://cdn.mbtace.com/archive/20220825.zip,
+20220823,20220824,"Fall 2022, 2022-08-30T00:20:19+00:00, version D",https://cdn.mbtace.com/archive/20220823.zip,
+20220817,20220822,"Fall 2022, 2022-08-24T14:34:02+00:00, version D",https://cdn.mbtace.com/archive/20220817.zip,
+20220816,20220816,"Fall 2022, 2022-08-23T00:32:01+00:00, version D",https://cdn.mbtace.com/archive/20220816.zip,Ensures that Union Square does not yet appear on the Green Line D map and stop diagram within MBTA.com. This commit shall be reverted when or shortly before Green Line D trains begin regularly servicing Union Square in mid-September.
+20220812,20220815,"Summer 2022, 2022-08-19T21:38:52+00:00, version D",https://cdn.mbtace.com/archive/20220812.zip,"Makes upcoming Orange Line and Green Line shuttle bus route patterns have `route_pattern_typicality` of `1`, so that line diagrams for the routes appear on MBTA.com."
+20220811,20220811,"Summer 2022, 2022-08-18T22:51:23+00:00, version D",https://cdn.mbtace.com/archive/20220811.zip,
+20220810,20220810,"Summer 2022, 2022-08-17T17:00:12+00:00, version D",https://cdn.mbtace.com/archive/20220810.zip,
+20220809,20220809,"Summer 2022, 2022-08-16T03:42:00+00:00, version D",https://cdn.mbtace.com/archive/20220809.zip,
+20220808,20220808,"Summer 2022, 2022-08-15T04:25:45+00:00, version D",https://cdn.mbtace.com/archive/20220808.zip,
+20220803,20220807,"Summer 2022, 2022-08-10T22:36:18+00:00, version D",https://cdn.mbtace.com/archive/20220803.zip,
+20220727,20220802,"Summer 2022, 2022-08-03T22:44:55+00:00, version D",https://cdn.mbtace.com/archive/20220727.zip,For Newburyport/Rockport Line weekday express shuttle buses.
+20220722,20220726,"Summer 2022, 2022-07-29T21:02:45+00:00, version D",https://cdn.mbtace.com/archive/20220722.zip,chore: No CR-Lowell or CR-Haverhill disruption this weekend; fixup! chore: No CR-Lowell or CR-Haverhill disruption this weekend; fixup! chore: No CR-Lowell or CR-Haverhill disruption this weekend
+20220720,20220721,"Summer 2022, 2022-07-27T18:04:24+00:00, version D",https://cdn.mbtace.com/archive/20220720.zip,
+20220719,20220719,"Summer 2022, 2022-07-26T16:59:09+00:00, version D",https://cdn.mbtace.com/archive/20220719.zip,
+20220712,20220718,"Summer 2022, 2022-07-19T19:40:41+00:00, version D",https://cdn.mbtace.com/archive/20220712.zip,
+20220706,20220711,"Summer 2022, 2022-07-13T21:34:34+00:00, version D",https://cdn.mbtace.com/archive/20220706.zip,
+20220701,20220705,"Summer 2022, 2022-07-08T21:06:19+00:00, version D",https://cdn.mbtace.com/archive/20220701.zip,"Introduces a new Hingham/Hull Ferry schedule with adjusted trip times throughout (usually no more than 5 minutes), as well as several new trips added on both weekdays and weekends. Schedule is retroactively in effect since 1 July 2022."
+20220630,20220630,"Summer 2022, 2022-07-07T16:51:36+00:00, version D",https://cdn.mbtace.com/archive/20220630.zip,Suspends train service between Malden Center and North Station on selected weekends in July/August 2022.
+20220623,20220629,"Summer 2022, 2022-06-30T22:13:00+00:00, version D",https://cdn.mbtace.com/archive/20220623.zip,
+20220616,20220622,"Summer 2022, 2022-06-23T22:16:28+00:00, version D",https://cdn.mbtace.com/archive/20220616.zip,
+20220610,20220615,"Summer 2022, 2022-06-17T21:58:56+00:00, version D",https://cdn.mbtace.com/archive/20220610.zip,
+20220609,20220609,"Summer 2022, 2022-06-16T20:47:31+00:00, version D",https://cdn.mbtace.com/archive/20220609.zip,
+20220603,20220608,"Summer 2022, 2022-06-10T21:40:32+00:00, version D",https://cdn.mbtace.com/archive/20220603.zip,chore: Revert Orient Heights Busway changes
+20220602,20220602,"Summer 2022, 2022-06-09T19:37:00+00:00, version D",https://cdn.mbtace.com/archive/20220602.zip,
+20220531,20220601,"Summer 2022, 2022-06-07T20:23:40+00:00, version D",https://cdn.mbtace.com/archive/20220531.zip,
+20220527,20220530,"Spring 2022, 2022-06-03T13:08:02+00:00, version D",https://cdn.mbtace.com/archive/20220527.zip,
+20220526,20220526,"Spring 2022, 2022-06-02T19:17:41+00:00, version D",https://cdn.mbtace.com/archive/20220526.zip,
+20220524,20220525,"Spring 2022, 2022-05-31T17:36:35+00:00, version D",https://cdn.mbtace.com/archive/20220524.zip,
+20220513,20220523,"Spring 2022, 2022-05-20T21:03:45+00:00, version D",https://cdn.mbtace.com/archive/20220513.zip,
+20220511,20220512,"Spring 2022, 2022-05-18T21:57:20+00:00, version D",https://cdn.mbtace.com/archive/20220511.zip,"Beginning 18 May 2022, Route 120 buses are moved from Berth B to Berth C, and morning Route 712/713 buses are moved from Berth C to Berths D/E due to Blue Line and Newburyport/Rockport Line shuttles occupying most of the Bennington St Busway. This commit shall be reverted once the latter of the Blue Line and Newburyport/Rockport Line diversions is completed."
+20220506,20220510,"Spring 2022, 2022-05-13T14:09:34+00:00, version D",https://cdn.mbtace.com/archive/20220506.zip,"The Beverlyâ€“Orient Heights express shuttle route was accidentally configured to be unhidden, leading it to be surfaced in lists of bus routes in the v3 API and in some third-party applications. This commit hides this shuttle route."
+20220505,20220505,"Spring 2022, 2022-05-12T14:51:42+00:00, version D",https://cdn.mbtace.com/archive/20220505.zip,
+20220502,20220504,"Spring 2022, 2022-05-09T18:47:28+00:00, version D",https://cdn.mbtace.com/archive/20220502.zip,
+20220501,20220501,"Spring 2022, 2022-05-08T23:08:37+00:00, version D",https://cdn.mbtace.com/archive/20220501.zip,
+20220430,20220430,"Spring 2022, 2022-05-07T01:09:05+00:00, version D",https://cdn.mbtace.com/archive/20220430.zip,
+20220426,20220429,"Spring 2022, 2022-05-03T14:50:42+00:00, version D",https://cdn.mbtace.com/archive/20220426.zip,
+20220422,20220425,"Spring 2022, 2022-04-29T20:06:41+00:00, version D",https://cdn.mbtace.com/archive/20220422.zip,
+20220421,20220421,"Spring 2022, 2022-04-28T20:16:31+00:00, version D",https://cdn.mbtace.com/archive/20220421.zip,
+20220419,20220420,"Spring 2022, 2022-04-26T23:08:35+00:00, version D",https://cdn.mbtace.com/archive/20220419.zip,
+20220408,20220418,"Spring 2022, 2022-04-15T16:38:12+00:00, version D",https://cdn.mbtace.com/archive/20220408.zip,
+20220405,20220407,"Spring 2022, 2022-04-12T17:30:29+00:00, version D",https://cdn.mbtace.com/archive/20220405.zip,
+20220404,20220404,"Spring 2022, 2022-04-11T22:09:40+00:00, version D",https://cdn.mbtace.com/archive/20220404.zip,
+20220402,20220403,"Spring 2022, 2022-04-09T12:14:53+00:00, version D",https://cdn.mbtace.com/archive/20220402.zip,
+20220330,20220401,"Spring 2022, 2022-04-06T21:59:38+00:00, version D",https://cdn.mbtace.com/archive/20220330.zip,"This change to the custom shuttle-building helper function makes it so that new trips get added to `multi_route_trips.txt`, which in turn allows the trips to show up on the Commuter Rail timetable on MBTA.com."
+20220325,20220329,"Spring 2022, 2022-04-01T16:04:24+00:00, version D",https://cdn.mbtace.com/archive/20220325.zip,"Ensures that, when a transfers or pathways validation error occurs, the correct row's information is displayed in the error message. In Pandas, inner merges can result in non-documented reordering: See https://github.com/pandas-dev/pandas/issues/18776 to follow the open issue."
+20220323,20220324,"Spring 2022, 2022-03-30T18:01:37+00:00, version D",https://cdn.mbtace.com/archive/20220323.zip,
+20220322,20220322,"Spring 2022, 2022-03-29T22:11:13+00:00, version D",https://cdn.mbtace.com/archive/20220322.zip,
+20220321,20220321,"Spring 2022, 2022-03-28T23:48:21+00:00, version D",https://cdn.mbtace.com/archive/20220321.zip,
+20220317,20220320,"Spring 2022, 2022-03-24T01:21:15+00:00, version D",https://cdn.mbtace.com/archive/20220317.zip,* Add shuttle for Back Bay to North Station on the Orange Line; * Add a version of `GreenEGovernmentCenterNorthStation` that creates; transfers to the Orange Line shuttle
+20220314,20220316,"Spring 2022, 2022-03-21T02:12:15+00:00, version D",https://cdn.mbtace.com/archive/20220314.zip,
+20220312,20220313,"Spring 2022, 2022-03-19T17:37:16+00:00, version D",https://cdn.mbtace.com/archive/20220312.zip,"Based on new information from Service Planning, only the southern half of the Lechmere bus loop will be open for passengers Monday. So we move the coordiates of the Busway there. Also incorporates newly-created entrance/exit `stop_id`s."
+20220310,20220311,"Spring 2022, 2022-03-17T17:50:03+00:00, version D",https://cdn.mbtace.com/archive/20220310.zip,
+20220309,20220309,"Spring 2022, 2022-03-16T23:32:01+00:00, version D",https://cdn.mbtace.com/archive/20220309.zip,
+20220304,20220308,"Spring 2022, 2022-03-11T23:54:18+00:00, version D",https://cdn.mbtace.com/archive/20220304.zip,
+20220303,20220303,"Spring 2022, 2022-03-10T20:35:33+00:00, version D",https://cdn.mbtace.com/archive/20220303.zip,
+20220302,20220302,"Spring 2022, 2022-03-09T15:11:01+00:00, version D",https://cdn.mbtace.com/archive/20220302.zip,
+20220228,20220301,"Spring 2022, 2022-03-07T19:18:10+00:00, version D",https://cdn.mbtace.com/archive/20220228.zip,
+20220223,20220227,"Spring 2022, 2022-03-02T23:35:03+00:00, version D",https://cdn.mbtace.com/archive/20220223.zip,"The original version of this Trainsformer export, introduced in pull request #1448, incorrectly had outbound Rockport Branch trains terminating at West Gloucester instead of Manchester. This commit, provided by a fresh Trainsformer export from Keolis, corrects issue. Note that one weekday peak-hour trip, Train 117, should still terminate at West Gloucester."
+20220217,20220222,"Winter 2022, 2022-02-24T22:17:49+00:00, version D",https://cdn.mbtace.com/archive/20220217.zip,
+20220215,20220216,"Winter 2022, 2022-02-22T17:40:56+00:00, version D",https://cdn.mbtace.com/archive/20220215.zip,feat: Support G/snap early departure trips from HASTUS
+20220204,20220214,"Winter 2022, 2022-02-11T19:37:53+00:00, version D",https://cdn.mbtace.com/archive/20220204.zip,
+20220127,20220203,"Winter 2022, 2022-02-03T21:25:29+00:00, version D",https://cdn.mbtace.com/archive/20220127.zip,
+20220121,20220126,"Winter 2022, 2022-01-28T19:59:34+00:00, version D",https://cdn.mbtace.com/archive/20220121.zip,
+20220120,20220120,"Winter 2022, 2022-01-27T16:52:06+00:00, version D",https://cdn.mbtace.com/archive/20220120.zip,
+20220113,20220119,"Winter 2022, 2022-01-20T20:06:53+00:00, version D",https://cdn.mbtace.com/archive/20220113.zip,
+20220106,20220112,"Winter 2022, 2022-01-13T20:21:02+00:00, version D",https://cdn.mbtace.com/archive/20220106.zip,
+20220103,20220105,"Winter 2022, 2022-01-10T16:29:27+00:00, version D",https://cdn.mbtace.com/archive/20220103.zip,
+20211231,20220102,"Winter 2022, 2022-01-07T21:27:20+00:00, version D",https://cdn.mbtace.com/archive/20211231.zip,
+20211230,20211230,"Winter 2022, 2022-01-06T23:12:17+00:00, version D",https://cdn.mbtace.com/archive/20211230.zip,
+20211228,20211229,"Winter 2022, 2022-01-04T16:37:40+00:00, version D",https://cdn.mbtace.com/archive/20211228.zip,
+20211222,20211227,"Winter 2022, 2021-12-29T15:33:08+00:00, version D",https://cdn.mbtace.com/archive/20211222.zip,
+20211209,20211221,"Winter 2022, 2021-12-16T18:03:26+00:00, version D",https://cdn.mbtace.com/archive/20211209.zip,
+20211206,20211208,"Winter 2022, 2021-12-13T15:40:19+00:00, version D",https://cdn.mbtace.com/archive/20211206.zip,chore: Add validation for CR shuttle routes to have parented stops
+20211129,20211205,"Winter 2022, 2021-12-06T20:03:40+00:00, version D",https://cdn.mbtace.com/archive/20211129.zip,"Companion commit to the previous supplemental bus detour (08dbb2c2). Ensures that shape points are sorted by shape_pt_sequence before truncating them as part of the through-routing process.; Why this matters: The bus detour patch adds new points to trips' shapes. Those new points are added to the end of the shapes.txt file, even if the points are not chronologically at the end of the shape/trip. This is usually not a problem since GTFS consumers are supposed to order points by shape_pt_sequence. These very particular trips, however, are affected by a through-routing script which breaks apart the trips into two or more parts. Consequently, the shapes get split up.; We try to be smart about splitting the shapes nearest specified start/end stop IDs, but don't do anything to make sure the points in the shape are first ordered properly. We assume they're already ordered by shape_pt_sequence since they usually already are, except in the edge case of shape patches. This commit resolves the conflict."
+20211126,20211128,"Fall 2021, 2021-12-03T20:56:22+00:00, version D",https://cdn.mbtace.com/archive/20211126.zip,"This was used to enable secrets in the tests, but had some odd side; effects as GitHub assumes only one branch at a time can be ""deployed""; to an environment. We now have the required variables set as repository; secrets, so this workaround shouldn't be needed.; Since Actions throws strange errors when a ""deploy workflow"" is changed; to a ""non-deploy workflow"", this also changes the workflow name, making; it unrelated to the old one as far as Actions is concerned."
+20211116,20211125,"Fall 2021, 2021-11-23T16:30:19+00:00, version D",https://cdn.mbtace.com/archive/20211116.zip,
+20211111,20211115,"Fall 2021, 2021-11-18T18:25:50+00:00, version D",https://cdn.mbtace.com/archive/20211111.zip,
+20211107,20211110,"Fall 2021, 2021-11-14T19:28:56+00:00, version D",https://cdn.mbtace.com/archive/20211107.zip,
+20211105,20211106,"Fall 2021, 2021-11-12T20:48:33+00:00, version D",https://cdn.mbtace.com/archive/20211105.zip,
+20211103,20211104,"Fall 2021, 2021-11-10T22:37:44+00:00, version D",https://cdn.mbtace.com/archive/20211103.zip,
+20211027,20211102,"Fall 2021, 2021-11-03T18:01:28+00:00, version D",https://cdn.mbtace.com/archive/20211027.zip,
+20211021,20211026,"Fall 2021, 2021-10-28T18:25:17+00:00, version D",https://cdn.mbtace.com/archive/20211021.zip,chore: Move Columbus Ave busway stop locations; fix: Consistent trip_headsigns toward Jackson Sq; feat: Change wheelchair_boarding value for Columbus Ave stops
+20211019,20211020,"Fall 2021, 2021-10-26T17:05:50+00:00, version D",https://cdn.mbtace.com/archive/20211019.zip,
+20211018,20211018,"Fall 2021, 2021-10-25T17:45:26+00:00, version D",https://cdn.mbtace.com/archive/20211018.zip,
+20211014,20211017,"Fall 2021, 2021-10-21T18:39:02+00:00, version D",https://cdn.mbtace.com/archive/20211014.zip,
+20211013,20211013,"Fall 2021, 2021-10-20T21:46:33+00:00, version D",https://cdn.mbtace.com/archive/20211013.zip,
+20211011,20211012,"Fall 2021, 2021-10-18T00:44:11+00:00, version D",https://cdn.mbtace.com/archive/20211011.zip,
+20211007,20211010,"Fall 2021, 2021-10-14T13:35:45+00:00, version D",https://cdn.mbtace.com/archive/20211007.zip,"These were the facilities of the old Lechmere station which is now; mostly demolished. The new station is not yet open, and will have its; own distinct facilities."
+20210929,20211006,"Fall 2021, 2021-10-06T15:22:13+00:00, version D",https://cdn.mbtace.com/archive/20210929.zip,
+20210927,20210928,"Fall 2021, 2021-10-04T18:42:53+00:00, version D",https://cdn.mbtace.com/archive/20210927.zip,
+20210923,20210926,"Fall 2021, 2021-09-30T23:25:14+00:00, version D",https://cdn.mbtace.com/archive/20210923.zip,
+20210921,20210922,"Fall 2021, 2021-09-28T21:35:58+00:00, version D",https://cdn.mbtace.com/archive/20210921.zip,
+20210916,20210920,"Fall 2021, 2021-09-23T22:07:12+00:00, version D",https://cdn.mbtace.com/archive/20210916.zip,
+20210914,20210915,"Fall 2021, 2021-09-21T22:07:39+00:00, version D",https://cdn.mbtace.com/archive/20210914.zip,
+20210909,20210913,"Fall 2021, 2021-09-16T21:36:43+00:00, version D",https://cdn.mbtace.com/archive/20210909.zip,
+20210902,20210908,"Fall 2021, 2021-09-09T19:47:21+00:00, version D",https://cdn.mbtace.com/archive/20210902.zip,
+20210831,20210901,"Fall 2021, 2021-09-07T22:02:51+00:00, version D",https://cdn.mbtace.com/archive/20210831.zip,"Also corrects an extant stop ID at Malden Center, and inbound mode_transfer_time, for the BallardvaleMaldenCenter shuttle to match the HaverhillBallardvaleMaldenCenter shuttle."
+20210825,20210830,"Fall 2021, 2021-09-01T14:45:09+00:00, version D",https://cdn.mbtace.com/archive/20210825.zip,
+20210824,20210824,"Fall 2021, 2021-08-31T15:12:14+00:00, version D",https://cdn.mbtace.com/archive/20210824.zip,
+20210819,20210823,"Fall 2021, 2021-08-26T16:25:11+00:00, version D",https://cdn.mbtace.com/archive/20210819.zip,
+20210816,20210818,"Fall 2021, 2021-08-23T18:45:02+00:00, version D",https://cdn.mbtace.com/archive/20210816.zip,
+20210814,20210815,"Fall 2021, 2021-08-21T18:40:30+00:00, version D",https://cdn.mbtace.com/archive/20210814.zip,chore: Suspend Ferry service on Aug 22 due to weather; chore: Suspend CapeFLYER service on Aug 22 due to weather; fix: Update Needham Line validation for Aug 21 work
+20210813,20210813,"Fall 2021, 2021-08-20T20:28:38+00:00, version D",https://cdn.mbtace.com/archive/20210813.zip,chore: Suspend Ferry service on Aug 22 due to weather; chore: Suspend CapeFLYER service on Aug 22 due to weather; fix: Update Needham Line validation for Aug 21 work
+20210812,20210812,"Fall 2021, 2021-08-19T22:24:22+00:00, version D",https://cdn.mbtace.com/archive/20210812.zip,"To align with the removal of the ""ready revision"" association in Arrow,; this removes the `ARROW_ONLY_READIED_DISRUPTIONS` environment variable; and all logic connected to it. `gtfs_creator` will now always apply and; publish the latest revision of disruptions retrieved from Arrow."
+20210809,20210811,"Fall 2021, 2021-08-16T20:05:51+00:00, version D",https://cdn.mbtace.com/archive/20210809.zip,"Suppresses the GLX pre-revenue schedules from being published at this time, instead reusing the schedule from the first half of the fall. Also creates Shuttle objects to suspend the Union Square branch from GTFS later in the fall once testing begins."
+20210806,20210808,"Summer 2021, 2021-08-13T20:00:37+00:00, version D",https://cdn.mbtace.com/archive/20210806.zip,
+20210804,20210805,"Summer 2021, 2021-08-11T21:04:06+00:00, version D",https://cdn.mbtace.com/archive/20210804.zip,
+20210728,20210803,"Summer 2021, 2021-08-04T21:21:24+00:00, version D",https://cdn.mbtace.com/archive/20210728.zip,
+20210721,20210727,"Summer 2021, 2021-07-28T20:13:48+00:00, version D",https://cdn.mbtace.com/archive/20210721.zip,
+20210715,20210720,"Summer 2021, 2021-07-22T17:45:09+00:00, version D",https://cdn.mbtace.com/archive/20210715.zip,"copied BeverlyRockport for new shuttle; changing sign names; gmake format; using stops and times from ticket; added whitespace for formatting; removed extra comma; removing comma; removed commas from sort.py; removing trips_data.py commas; removed comma; removed 50+ commas; removed route_patterns commas; removed commas from helpers.py; removed shuttles.py commas; removed validate.py commas; removed dictionary commas; removed 3 commas; created shapes; new shuttle route added; removed comma from __init__.py; reverting format for gtfs_creator2/disruptions/disruption_results.py; reverting distance_between_stops.py; ran gmake format; removed IndependenceDay; reverting optimize_calendar_dates.py; reverting archive.py; reverted __init__.py; reverted gtfs_creator2/boat/route_patterns_data.py; reverting trips_data; reverting route_patterns.py; reverting disruption.py; reverting simple_shuttle.py; reverting __init__.py, facilities, and properties; removing commas; reverted route_patterns, stop_times, stops, through_routed_trips, and transfers.py; reverted update, helpers, stops, travel_time.py; reverted prevalidate, directions, typicality, main.py; reverting sort_order.py; adding route to CR_SERVICE_SEPARATIONS; removing unneeded fields and using unique suffic; correcting route_name; added line_id and route_long_name; changed BrooklineVillageRiversidePartial suffix; removed calendar_dates.txt; ran gmake format; removed commas; changed route_types to routes; ran gmake format; ran gmake format; new disruption added for testing. will remove later; adding days attribute to Disruption; service_ids added to excepted_services; pulled in IndependenceDay commit from master; changed route_short_name; headsign and train_headsign corrections; using abbreviated service_ids for exceptions; got new keolis files; ran gmake format; changed headsign for inbound direction; removed Disruption; adding new service_ids to excepted services"
+20210709,20210714,"Summer 2021, 2021-07-16T17:03:45+00:00, version D",https://cdn.mbtace.com/archive/20210709.zip,"copied BeverlyRockport for new shuttle; changing sign names; gmake format; using stops and times from ticket; added whitespace for formatting; removed extra comma; removing comma; removed commas from sort.py; removing trips_data.py commas; removed comma; removed 50+ commas; removed route_patterns commas; removed commas from helpers.py; removed shuttles.py commas; removed validate.py commas; removed dictionary commas; removed 3 commas; created shapes; new shuttle route added; removed comma from __init__.py; reverting format for gtfs_creator2/disruptions/disruption_results.py; reverting distance_between_stops.py; ran gmake format; removed IndependenceDay; reverting optimize_calendar_dates.py; reverting archive.py; reverted __init__.py; reverted gtfs_creator2/boat/route_patterns_data.py; reverting trips_data; reverting route_patterns.py; reverting disruption.py; reverting simple_shuttle.py; reverting __init__.py, facilities, and properties; removing commas; reverted route_patterns, stop_times, stops, through_routed_trips, and transfers.py; reverted update, helpers, stops, travel_time.py; reverted prevalidate, directions, typicality, main.py; reverting sort_order.py; adding route to CR_SERVICE_SEPARATIONS; removing unneeded fields and using unique suffic; correcting route_name; added line_id and route_long_name; changed BrooklineVillageRiversidePartial suffix; removed calendar_dates.txt; ran gmake format; removed commas; changed route_types to routes; ran gmake format; ran gmake format; new disruption added for testing. will remove later; adding days attribute to Disruption; service_ids added to excepted_services; pulled in IndependenceDay commit from master; changed route_short_name; headsign and train_headsign corrections; using abbreviated service_ids for exceptions; got new keolis files; ran gmake format; changed headsign for inbound direction; removed Disruption; adding new service_ids to excepted services"
+20210707,20210708,"Summer 2021, 2021-07-14T20:20:03+00:00, version D",https://cdn.mbtace.com/archive/20210707.zip,
+20210701,20210706,"Summer 2021, 2021-07-08T20:47:35+00:00, version D",https://cdn.mbtace.com/archive/20210701.zip,
+20210625,20210630,"Summer 2021, 2021-07-02T21:41:49+00:00, version D",https://cdn.mbtace.com/archive/20210625.zip,
+20210623,20210624,"Summer 2021, 2021-06-30T20:50:05+00:00, version D",https://cdn.mbtace.com/archive/20210623.zip,
+20210618,20210622,"Summer 2021, 2021-06-25T23:48:48+00:00, version D",https://cdn.mbtace.com/archive/20210618.zip,
+20210617,20210617,"Summer 2021, 2021-06-24T19:32:29+00:00, version D",https://cdn.mbtace.com/archive/20210617.zip,
+20210615,20210616,"Summer 2021, 2021-06-22T19:41:00+00:00, version D",https://cdn.mbtace.com/archive/20210615.zip,
+20210614,20210614,"Summer 2021, 2021-06-21T23:04:48+00:00, version D",https://cdn.mbtace.com/archive/20210614.zip,
+20210611,20210613,"Summer 2021, 2021-06-18T15:43:14+00:00, version D",https://cdn.mbtace.com/archive/20210611.zip,Changes trip_headsign for the afternoon outbound variant of Route CT3 corresponding to a change on the physical headsigns starting June 21. New text better differentiates morning and afternoon routings.
+20210607,20210610,"Summer 2021, 2021-06-14T17:31:11+00:00, version D",https://cdn.mbtace.com/archive/20210607.zip,
+20210603,20210606,"Summer 2021, 2021-06-10T19:34:22+00:00, version D",https://cdn.mbtace.com/archive/20210603.zip,
+20210602,20210602,"Summer 2021, 2021-06-09T15:46:47+00:00, version D",https://cdn.mbtace.com/archive/20210602.zip,Reverts to Summer 2021 routing for Route 80 outbound around Roslindale Square. Completion of a bus stop relocation to faciliate the route change will not be ready by June 20. This patch is anticipated to be needed until June 22.
+20210531,20210601,"Spring 2021, 2021-06-07T17:45:09+00:00, version D",https://cdn.mbtace.com/archive/20210531.zip,
+20210528,20210530,"Spring 2021, 2021-06-04T17:11:46+00:00, version D",https://cdn.mbtace.com/archive/20210528.zip,
+20210522,20210527,"Spring 2021, 2021-05-29T20:06:08+00:00, version D",https://cdn.mbtace.com/archive/20210522.zip,
+20210521,20210521,"Spring 2021, 2021-05-28T19:08:02+00:00, version D",https://cdn.mbtace.com/archive/20210521.zip,
+20210519,20210520,"Spring 2021, 2021-05-26T20:30:06+00:00, version D",https://cdn.mbtace.com/archive/20210519.zip,
+20210514,20210518,"Spring 2021, 2021-05-21T20:11:54+00:00, version D",https://cdn.mbtace.com/archive/20210514.zip,
+20210511,20210513,"Spring 2021, 2021-05-18T19:39:57+00:00, version D",https://cdn.mbtace.com/archive/20210511.zip,
+20210507,20210510,"Spring 2021, 2021-05-14T15:00:12+00:00, version D",https://cdn.mbtace.com/archive/20210507.zip,"created HaverhillLawrence SimpleShuttle instance; added 3 shuttle stops; shape KML files created; new route added; directions route name exceptions files updated; Disruption added to disruptions.py; end_state should be a single date, not a list of dates; Disruption comment now states correct shuttle; inbound direction is North Station; removed HaverhillLawrence Disruption"
+20210430,20210506,"Spring 2021, 2021-05-07T20:18:57+00:00, version D",https://cdn.mbtace.com/archive/20210430.zip,
+20210426,20210429,"Spring 2021, 2021-05-03T21:46:08+00:00, version D",https://cdn.mbtace.com/archive/20210426.zip,
+20210423,20210425,"Spring 2021, 2021-04-30T21:09:57+00:00, version D",https://cdn.mbtace.com/archive/20210423.zip,chore: Validate that all connecting CR trains have transfers; chore: Manually add Newburyport/Rockport transfer from May 3
+20210421,20210422,"Spring 2021, 2021-04-28T22:04:02+00:00, version D",https://cdn.mbtace.com/archive/20210421.zip,"Since `ReplaceService` happens before `Disruption`, the Newton RailBus; disruption would also affect Memorial Day, creating an extra service.; The items are reordered to make the actual order of processing clearer."
+20210413,20210420,"Spring 2021, 2021-04-20T21:10:12+00:00, version D",https://cdn.mbtace.com/archive/20210413.zip,
+20210409,20210412,"Spring 2021, 2021-04-16T21:00:12+00:00, version D",https://cdn.mbtace.com/archive/20210409.zip,
+20210408,20210408,"Spring 2021, 2021-04-15T21:08:13+00:00, version D",https://cdn.mbtace.com/archive/20210408.zip,
+20210405,20210407,"Spring 2021, 2021-04-12T19:51:14+00:00, version D",https://cdn.mbtace.com/archive/20210405.zip,"This enhances `RouteTypeDisruption` (now `ReplaceService`) to enable; directly specifying lists of service IDs to deactivate and activate,; instead of looking up services based on dates and route criteria. This; allows activating services that don't exist at all in the pre-disruption; calendar, which will be necessary to activate the ""storm schedules"" (and; potentially other schedules) under the new HASTUS import process."
+20210329,20210404,"Spring 2021, 2021-04-05T18:21:23+00:00, version D",https://cdn.mbtace.com/archive/20210329.zip,
+20210326,20210328,"Spring 2021, 2021-04-02T22:13:16+00:00, version D",https://cdn.mbtace.com/archive/20210326.zip,
+20210324,20210325,"Spring 2021, 2021-03-31T21:15:36+00:00, version D",https://cdn.mbtace.com/archive/20210324.zip,
+20210320,20210323,"Spring 2021, 2021-03-27T15:01:22+00:00, version D",https://cdn.mbtace.com/archive/20210320.zip,
+20210317,20210319,"Spring 2021, 2021-03-24T18:51:16+00:00, version D",https://cdn.mbtace.com/archive/20210317.zip,"moved CompletedStopClosure to 2021-Spring-v2 from 2021-Winter-v4; removed references to 2021-Winter-v4 from update.py; removed Winter from transitmaster/update.py; removed winter 2021 from calendar_attributes.py; removed distruptions that ended/deactivated before 2021-03-24; removed rows with 24,Z for old_route_id_short,via_variant; removing rows starting with 24,Y and 57,Z; fixed empty dictionary formatting; restored ferry and commuter rail ratings for winter 2021"
+20210312,20210316,"Spring 2021, 2021-03-19T19:03:44+00:00, version D",https://cdn.mbtace.com/archive/20210312.zip,"WIP on BrooklineHillsRiverside; removed stop_sequences. started adding to times list; fixed start_stop and end_stop; filled in times fields in SimpleShuttleDirection; added new route, route name exception, and directions; chore: Add shuttle bus shapes; fix: Formatting; correction to route_long_name; shape name correction"
+20210311,20210311,"Spring 2021, 2021-03-18T21:59:43+00:00, version D",https://cdn.mbtace.com/archive/20210311.zip,
+20210310,20210310,"Spring 2021, 2021-03-17T03:28:44+00:00, version D",https://cdn.mbtace.com/archive/20210310.zip,
+20210304,20210309,"Spring 2021, 2021-03-11T23:38:54+00:00, version D",https://cdn.mbtace.com/archive/20210304.zip,
+20210224,20210303,"Spring 2021, 2021-03-03T23:00:33+00:00, version D",https://cdn.mbtace.com/archive/20210224.zip,
+20210219,20210223,"Spring 2021, 2021-02-26T21:02:09+00:00, version D",https://cdn.mbtace.com/archive/20210219.zip,
+20210217,20210218,"Winter 2021, 2021-02-24T23:52:33+00:00, version D",https://cdn.mbtace.com/archive/20210217.zip,"The commit in which these shuttles were introduced was made before the routing and stop locations were finalized by other departments, so here we adjust to reflect the final operating plan."
+20210215,20210216,"Winter 2021, 2021-02-22T20:28:23+00:00, version D",https://cdn.mbtace.com/archive/20210215.zip,
+20210212,20210214,"Winter 2021, 2021-02-19T15:44:31+00:00, version D",https://cdn.mbtace.com/archive/20210212.zip,
+20210211,20210211,"Winter 2021, 2021-02-18T18:43:02+00:00, version D",https://cdn.mbtace.com/archive/20210211.zip,
+20210210,20210210,"Winter 2021, 2021-02-17T20:38:20+00:00, version D",https://cdn.mbtace.com/archive/20210210.zip,started new SimpleShuttle definitions; made SimpleShutte name for babcock and kenmore alphabetical; changed some attributes in BabcockStreetKenmore; start and end stops added; updates lists of times; starting KenmoreWashingtonStreet; edited times lists and stops lists; removed duplicate KenmoreWashingtonStreet; created new shapes; changed Kenmore Street to Kenmore; changed route from BlandfordWashington to Kenmore Washington; removed comment; updated endstop for KenmoreWashingtonStreet direction 1; removed st paul street from direction toward kenmore; added stop 952 on outbound trips for Ganby St; added routes and directions; added St. Marys Street stop for Babcock to Kenmore; added St. Marys Street stop for Washington Street to Kenmore
+20210205,20210209,"Winter 2021, 2021-02-12T18:00:08+00:00, version D",https://cdn.mbtace.com/archive/20210205.zip,
+20210203,20210204,"Winter 2021, 2021-02-10T14:08:10+00:00, version D",https://cdn.mbtace.com/archive/20210203.zip,
+20210128,20210202,"Winter 2021, 2021-02-04T19:25:29+00:00, version D",https://cdn.mbtace.com/archive/20210128.zip,"Accomplished by adding platform_names to recently-served ferry docks, since stops with non-null platform_name are not truncated"
+20210125,20210127,"Winter 2021, 2021-02-01T18:16:52+00:00, version D",https://cdn.mbtace.com/archive/20210125.zip,
+20210121,20210124,"Winter 2021, 2021-01-28T16:53:02+00:00, version D",https://cdn.mbtace.com/archive/20210121.zip,
+20210114,20210120,"Winter 2021, 2021-01-21T20:18:33+00:00, version D",https://cdn.mbtace.com/archive/20210114.zip,"Adds a HASTUS patch to move Stop 69 (Mass Ave at Hancock St, southbound) on Route 1."
+20210108,20210113,"Winter 2021, 2021-01-15T21:59:55+00:00, version D",https://cdn.mbtace.com/archive/20210108.zip,"- When we started activating storm schedules at the beginning of the pandemic, we disabled validations that checked that each route was running on the appropriate days. It's since become a liability. So this reenables it while adding in some logic for the Commuter Rail service we're temporarily suspending (and other bus routes not currently running)."
+20210107,20210107,"Winter 2021, 2021-01-14T14:33:01+00:00, version D",https://cdn.mbtace.com/archive/20210107.zip,
+20210102,20210106,"Winter 2021, 2021-01-09T01:15:00+00:00, version D",https://cdn.mbtace.com/archive/20210102.zip,Co-authored-by: Frank LaNasa <fjlanasa@Franks-MacBook-Pro.local>; Co-authored-by: Joshua Fabian <jfabian@mbta.com>; Co-authored-by: Cora Grant <394835+x@users.noreply.github.com>
+20210101,20210101,"Winter 2021, 2021-01-08T20:32:47+00:00, version D",https://cdn.mbtace.com/archive/20210101.zip,
+20201231,20201231,"Winter 2021, 2021-01-07T21:54:00+00:00, version D",https://cdn.mbtace.com/archive/20201231.zip,
+20201224,20201230,"Winter 2021, 2020-12-31T18:42:14+00:00, version D",https://cdn.mbtace.com/archive/20201224.zip,
+20201216,20201223,"Winter 2021, 2020-12-23T21:03:41+00:00, version D",https://cdn.mbtace.com/archive/20201216.zip,
+20201211,20201215,"Winter 2021, 2020-12-18T16:31:24+00:00, version D",https://cdn.mbtace.com/archive/20201211.zip,
+20201209,20201210,"Winter 2021, 2020-12-16T22:45:43+00:00, version D",https://cdn.mbtace.com/archive/20201209.zip,
+20201208,20201208,"Winter 2021, 2020-12-15T23:05:58+00:00, version D",https://cdn.mbtace.com/archive/20201208.zip,
+20201203,20201207,"Winter 2021, 2020-12-10T22:50:06+00:00, version D",https://cdn.mbtace.com/archive/20201203.zip,Uses reduced service schedule weekdays 12/14â€“24; Adjusts Plymouth closure schedule on 12/14 for reduced service
+20201201,20201202,"Winter 2021, 2020-12-08T21:14:28+00:00, version D",https://cdn.mbtace.com/archive/20201201.zip,"Adds 2021 holidays; Reverts emergency/reduced schedules for bus, subway on 2021-01-15 and 2021-01-16; Temporary suspension of Routes 72, 195"
+20201127,20201130,"Fall 2020, 2020-12-04T18:20:17+00:00, version D",https://cdn.mbtace.com/archive/20201127.zip,chore: revert moody st closure; chore: convert PendingStopClosures to CompletedStopClosures
+20201125,20201126,"Fall 2020, 2020-12-02T23:20:56+00:00, version D",https://cdn.mbtace.com/archive/20201125.zip,chore: revert moody st closure; chore: convert PendingStopClosures to CompletedStopClosures
+20201118,20201124,"Fall 2020, 2020-11-25T21:25:35+00:00, version D",https://cdn.mbtace.com/archive/20201118.zip,
+20201112,20201117,"Fall 2020, 2020-11-19T21:18:22+00:00, version D",https://cdn.mbtace.com/archive/20201112.zip,
+20201109,20201111,"Fall 2020, 2020-11-16T13:37:33+00:00, version D",https://cdn.mbtace.com/archive/20201109.zip,
+20201106,20201108,"Fall 2020, 2020-11-13T17:24:46+00:00, version D",https://cdn.mbtace.com/archive/20201106.zip,
+20201029,20201105,"Fall 2020, 2020-11-05T21:12:14+00:00, version D",https://cdn.mbtace.com/archive/20201029.zip,
+20201026,20201028,"Fall 2020, 2020-11-02T23:13:20+00:00, version D",https://cdn.mbtace.com/archive/20201026.zip,
+20201023,20201025,"Fall 2020, 2020-10-30T21:23:59+00:00, version D",https://cdn.mbtace.com/archive/20201023.zip,
+20201022,20201022,"Fall 2020, 2020-10-29T18:22:02+00:00, version D",https://cdn.mbtace.com/archive/20201022.zip,
+20201020,20201021,"Fall 2020, 2020-10-27T14:44:33+00:00, version D",https://cdn.mbtace.com/archive/20201020.zip,
+20201016,20201019,"Fall 2020, 2020-10-23T17:10:40+00:00, version D",https://cdn.mbtace.com/archive/20201016.zip,
+20201014,20201015,"Fall 2020, 2020-10-21T21:37:34+00:00, version D",https://cdn.mbtace.com/archive/20201014.zip,
+20201008,20201013,"Fall 2020, 2020-10-15T18:20:03+00:00, version D",https://cdn.mbtace.com/archive/20201008.zip,
+20201002,20201007,"Fall 2020, 2020-10-09T17:32:32+00:00, version D",https://cdn.mbtace.com/archive/20201002.zip,
+20201001,20201001,"Fall 2020, 2020-10-08T20:01:41+00:00, version D",https://cdn.mbtace.com/archive/20201001.zip,
+20200925,20200930,"Fall 2020, 2020-10-02T17:32:20+00:00, version D",https://cdn.mbtace.com/archive/20200925.zip,
+20200924,20200924,"Fall 2020, 2020-10-01T20:06:58+00:00, version D",https://cdn.mbtace.com/archive/20200924.zip,
+20200922,20200923,"Fall 2020, 2020-09-29T21:29:04+00:00, version D",https://cdn.mbtace.com/archive/20200922.zip,
+20200917,20200921,"Fall 2020, 2020-09-24T16:42:41+00:00, version D",https://cdn.mbtace.com/archive/20200917.zip,
+20200910,20200916,"Fall 2020, 2020-09-17T20:14:17+00:00, version D",https://cdn.mbtace.com/archive/20200910.zip,
+20200905,20200909,"Fall 2020, 2020-09-12T16:19:14+00:00, version D",https://cdn.mbtace.com/archive/20200905.zip,
+20200902,20200904,"Fall 2020, 2020-09-09T12:37:57+00:00, version D",https://cdn.mbtace.com/archive/20200902.zip,
+20200828,20200901,"Fall 2020, 2020-09-04T18:09:43+00:00, version D",https://cdn.mbtace.com/archive/20200828.zip,
+20200827,20200827,"Fall 2020, 2020-09-03T08:23:04+00:00, version D",https://cdn.mbtace.com/archive/20200827.zip,
+20200824,20200826,"Fall 2020, 2020-08-31T18:23:46+00:00, version D",https://cdn.mbtace.com/archive/20200824.zip,
+20200821,20200823,"Fall 2020, 2020-08-28T18:12:44+00:00, version D",https://cdn.mbtace.com/archive/20200821.zip,
+20200813,20200820,"Fall 2020, 2020-08-20T15:52:04+00:00, version D",https://cdn.mbtace.com/archive/20200813.zip,
+20200808,20200812,"Fall 2020, 2020-08-15T17:03:05+00:00, version D",https://cdn.mbtace.com/archive/20200808.zip,
+20200806,20200807,"Fall 2020, 2020-08-13T20:47:03+00:00, version D",https://cdn.mbtace.com/archive/20200806.zip,
+20200804,20200805,"Fall 2020, 2020-08-11T18:34:13+00:00, version D",https://cdn.mbtace.com/archive/20200804.zip,
+20200731,20200803,"Summer 2020, 2020-08-07T13:25:01+00:00, version D",https://cdn.mbtace.com/archive/20200731.zip,
+20200728,20200730,"Summer 2020, 2020-08-04T14:37:39+00:00, version D",https://cdn.mbtace.com/archive/20200728.zip,chore: Cancel Red Line EA on 8/4; chore: Cancel Worcester Line shuttles from 8/8; fix: Give HASTUS-revert disruptions service_typicality=1
+20200724,20200727,"Summer 2020, 2020-07-31T23:59:34+00:00, version D",https://cdn.mbtace.com/archive/20200724.zip,
+20200723,20200723,"Summer 2020, 2020-07-30T08:14:51+00:00, version D",https://cdn.mbtace.com/archive/20200723.zip,"CapeFLYER just has a hand-written trips.txt, so I added a; bikes_allowed column. Per the CapeFLYER website bikes are allowed:; https://capeflyer.com/rider-info-capeflyer-train-boston-capecod/while-on-board/"
+20200721,20200722,"Summer 2020, 2020-07-28T19:25:14+00:00, version D",https://cdn.mbtace.com/archive/20200721.zip,
+20200716,20200720,"Summer 2020, 2020-07-23T20:16:26+00:00, version D",https://cdn.mbtace.com/archive/20200716.zip,
+20200713,20200715,"Summer 2020, 2020-07-20T22:09:33+00:00, version D",https://cdn.mbtace.com/archive/20200713.zip,
+20200710,20200712,"Summer 2020, 2020-07-17T12:38:01+00:00, version D",https://cdn.mbtace.com/archive/20200710.zip,
+20200709,20200709,"Summer 2020, 2020-07-16T18:15:25+00:00, version D",https://cdn.mbtace.com/archive/20200709.zip,
+20200702,20200708,"Summer 2020, 2020-07-09T20:33:42+00:00, version D",https://cdn.mbtace.com/archive/20200702.zip,
+20200701,20200701,"Summer 2020, 2020-07-08T15:52:07+00:00, version D",https://cdn.mbtace.com/archive/20200701.zip,"This was only required to avoid a false positive in prevalidation, which; was addressed in a previous commit by making the validation time-aware."
+20200629,20200630,"Summer 2020, 2020-07-06T16:17:44+00:00, version D",https://cdn.mbtace.com/archive/20200629.zip,
+20200627,20200628,"Summer 2020, 2020-07-04T12:02:23+00:00, version D",https://cdn.mbtace.com/archive/20200627.zip,"This is already modeled in HASTUS, so we don't change it to the Storm; schedule. We also change the 2020-07-03 disruption to point to the 11th."
+20200625,20200626,"Summer 2020, 2020-07-02T14:50:58+00:00, version D",https://cdn.mbtace.com/archive/20200625.zip,
+20200622,20200624,"Summer 2020, 2020-06-29T22:12:14+00:00, version D",https://cdn.mbtace.com/archive/20200622.zip,"As per update email from Corey Lynch on June 26th, and disruption info; published at mbta.com/FBGwork."
+20200618,20200621,"Summer 2020, 2020-06-25T19:15:36+00:00, version D",https://cdn.mbtace.com/archive/20200618.zip,"Per e-mail from Franck.; > I just wanted to let you know that, in agreement with PR at Keolis and the; > MBTA, we are now to communicate that the Worcester Line diversion will go at; > least through July 4 weekend."
+20200616,20200617,"Summer 2020, 2020-06-23T18:22:51+00:00, version D",https://cdn.mbtace.com/archive/20200616.zip,
+20200615,20200615,"Summer 2020, 2020-06-22T19:00:14+00:00, version D",https://cdn.mbtace.com/archive/20200615.zip,
+20200613,20200614,"Summer 2020, 2020-06-20T20:56:29+00:00, version D",https://cdn.mbtace.com/archive/20200613.zip,
+20200611,20200612,"Summer 2020, 2020-06-18T22:08:04+00:00, version D",https://cdn.mbtace.com/archive/20200611.zip,
+20200605,20200610,"Summer 2020, 2020-06-12T19:48:10+00:00, version D",https://cdn.mbtace.com/archive/20200605.zip,
+20200603,20200604,"Spring 2020, 2020-06-10T22:08:55+00:00, version D",https://cdn.mbtace.com/archive/20200603.zip,
+20200601,20200602,"Spring 2020, 2020-06-08T19:48:24+00:00, version D",https://cdn.mbtace.com/archive/20200601.zip,fix: Extend CR through feed_end_date for validation; chore: Extend Greenbush Line shuttles; fix: Red Line evening shuttle updates; chore: Clean up expired shuttles
+20200528,20200531,"Spring 2020, 2020-06-04T21:30:03+00:00, version D",https://cdn.mbtace.com/archive/20200528.zip,
+20200526,20200527,"Spring 2020, 2020-06-02T22:28:51+00:00, version D",https://cdn.mbtace.com/archive/20200526.zip,"Previously we were inconsistent about whether there was an `__init__.py`; file in each test directory or not, which impacts how pytest loads tests; in that directory (with `__init__` they are loaded as fully-qualified; ""packages"", without they are loaded as top-level modules). This had the; odd consequence that using the `pytest` script (vs. `python -m pytest`); to run a specific test file would work for some files, but crash with a; `ModuleNotFoundError` on others.; Ref: https://docs.pytest.org/en/latest/pythonpath.html"
+20200522,20200525,"Spring 2020, 2020-05-29T18:02:33+00:00, version D",https://cdn.mbtace.com/archive/20200522.zip,
+20200521,20200521,"Spring 2020, 2020-05-28T17:33:45+00:00, version D",https://cdn.mbtace.com/archive/20200521.zip,
+20200514,20200520,"Spring 2020, 2020-05-21T20:06:36+00:00, version D",https://cdn.mbtace.com/archive/20200514.zip,The Greenbush disruption already covers that line.
+20200508,20200513,"Spring 2020, 2020-05-15T22:33:42+00:00, version D",https://cdn.mbtace.com/archive/20200508.zip,
+20200507,20200507,"Spring 2020, 2020-05-14T21:16:16+00:00, version D",https://cdn.mbtace.com/archive/20200507.zip,
+20200504,20200506,"Spring 2020, 2020-05-11T19:42:26+00:00, version D",https://cdn.mbtace.com/archive/20200504.zip,
+20200429,20200503,"Spring 2020, 2020-05-06T22:59:31+00:00, version D",https://cdn.mbtace.com/archive/20200429.zip,Remove old CR disruptions; Extend CR-Worcester weekend shuttles through June; Cancellation of upcoming Old Colony weekend suspension; CapeFLYER suspended until 6/26
+20200424,20200428,"Spring 2020, 2020-05-01T19:13:39+00:00, version D",https://cdn.mbtace.com/archive/20200424.zip,
+20200416,20200423,"Spring 2020, 2020-04-23T15:20:52+00:00, version D",https://cdn.mbtace.com/archive/20200416.zip,
+20200409,20200415,"Spring 2020, 2020-04-16T08:39:02+00:00, version D",https://cdn.mbtace.com/archive/20200409.zip,Per e-mail from Franck.
+20200404,20200408,"Spring 2020, 2020-04-11T11:16:47+00:00, version D",https://cdn.mbtace.com/archive/20200404.zip,- updated shapes for 74/75/77/78/86; - switch 2076 (Lower Busway) to 20763 (Brattle St @ Palmer St); - switch 20762 (Busway) to 20761 (Upper Busway); Outstanding issues:; - 77 trips from the North Cambridge Carhouse?; - 72 doesn't have a new shape?
+20200402,20200403,"Spring 2020, 2020-04-09T08:33:57+00:00, version D",https://cdn.mbtace.com/archive/20200402.zip,
+20200326,20200401,"Spring 2020, 2020-04-02T20:16:11+00:00, version D",https://cdn.mbtace.com/archive/20200326.zip,Clean up old disruptions; Update Rapid Transit disruptions; Update Commuter Rail disruptions
+20200323,20200325,"Spring 2020, 2020-03-30T14:11:29+00:00, version D",https://cdn.mbtace.com/archive/20200323.zip,
+20200320,20200322,"Spring 2020, 2020-03-27T20:47:29+00:00, version D",https://cdn.mbtace.com/archive/20200320.zip,
+20200317,20200319,"Spring 2020, 2020-03-24T21:32:17+00:00, version D",https://cdn.mbtace.com/archive/20200317.zip,
+20200316,20200316,"Spring 2020, 2020-03-23T18:23:17+00:00, version D",https://cdn.mbtace.com/archive/20200316.zip,chore: disruption cancellations for week of 3/23
+20200313,20200315,"Spring 2020, 2020-03-20T19:26:32+00:00, version D",https://cdn.mbtace.com/archive/20200313.zip,
+20200312,20200312,"Spring 2020, 2020-03-19T18:06:14+00:00, version D",https://cdn.mbtace.com/archive/20200312.zip,Temporarily modify 71/73 to use Sunday variant; Add/modify appropriate tests
+20200311,20200311,"Spring 2020, 2020-03-18T19:12:42+00:00, version D",https://cdn.mbtace.com/archive/20200311.zip,"Per Kat Benesh, via e-mail. Technically it's starting 3/18, but we won't have; the GTFS out in time for that so we're keeping the 2020-03-18 service the same."
+20200310,20200310,"Spring 2020, 2020-03-17T15:21:47+00:00, version D",https://cdn.mbtace.com/archive/20200310.zip,
+20200309,20200309,"Spring 2020, 2020-03-16T17:16:45+00:00, version D",https://cdn.mbtace.com/archive/20200309.zip,"Adds most planned disruptions for spring, including for Green-D weeknights"
+20200305,20200308,"Spring 2020, 2020-03-12T16:15:31+00:00, version D",https://cdn.mbtace.com/archive/20200305.zip,chore: apply BraintreeQuincyCenter shuttle for March 16 - June 18
+20200302,20200304,"Spring 2020, 2020-03-09T15:19:32+00:00, version D",https://cdn.mbtace.com/archive/20200302.zip,Banish .DS_Store; Validation dates for weekend CR-Franklin
+20200227,20200301,"Winter 2020, 2020-03-05T18:56:22+00:00, version D",https://cdn.mbtace.com/archive/20200227.zip,
+20200220,20200226,"Winter 2020, 2020-02-27T13:29:19+00:00, version D",https://cdn.mbtace.com/archive/20200220.zip,"Modify CR-Fitchburg suspension dates; Clean up expired, existing disruptions; Fix shuttle shapes around Kenmore; Fix shuttle stops for KenmoreReservoir"
+20200217,20200219,"Winter 2020, 2020-02-24T19:47:34+00:00, version D",https://cdn.mbtace.com/archive/20200217.zip,No KenmoreReservoir shuttles on 24-25 February; fix: handle truncation when there are no holidays; fix: validations support not having calendar_dates.txt
+20200213,20200216,"Winter 2020, 2020-02-20T08:22:31+00:00, version D",https://cdn.mbtace.com/archive/20200213.zip,feat: updates for week of 2-16-2020
+20200206,20200212,"Winter 2020, 2020-02-13T19:02:24+00:00, version D",https://cdn.mbtace.com/archive/20200206.zip,
+20200130,20200205,"Winter 2020, 2020-02-06T15:38:13+00:00, version D",https://cdn.mbtace.com/archive/20200130.zip,"1. We only considered ""shuttle trips"" to be those trips which weren't on the; original route. But, for shuttles where we're truncating part of a route; along with a shuttle, we do need to keep those other trips. We change the; logic instead to treat any trip which isn't the one we're currently; processing as a ""shuttle trip"".; 2. We weren't copying the shapes when running multiple disruptions. Then, we; weren't processing the shapes in an order which allowed for a truncation to; be applied to an already truncated shape."
+20200123,20200129,"Winter 2020, 2020-01-30T14:56:09+00:00, version D",https://cdn.mbtace.com/archive/20200123.zip,feat: KenmoreReservoir activated 2/21 - 3/1; feat: BrooklineHillsNewtonHighlands 3/2-3/5 per ROW calendar; feat: Worcester PTC confirmed start date is 2/29; feat: Fitchburg GLX weekend of 2/15 - 2/16
+20200116,20200122,"Winter 2020, 2020-01-23T20:45:13+00:00, version D",https://cdn.mbtace.com/archive/20200116.zip,
+20200109,20200115,"Winter 2020, 2020-01-16T19:10:59+00:00, version D",https://cdn.mbtace.com/archive/20200109.zip,Clean up dusty disruptions; Fix tests for pending changes
+20200102,20200108,"Winter 2020, 2020-01-09T15:34:50+00:00, version D",https://cdn.mbtace.com/archive/20200102.zip,
+20191226,20200101,"Winter 2020, 2020-01-02T22:45:48+00:00, version D",https://cdn.mbtace.com/archive/20191226.zip,
+20191223,20191225,"Winter 2020, 2019-12-30T21:36:54+00:00, version D",https://cdn.mbtace.com/archive/20191223.zip,"This mistakenly activated a Sunday with a Patriots game, which meant we; showed a CR-Foxboro train on New Years Day."
+20191220,20191222,"Winter 2020, 2019-12-27T21:34:58+00:00, version D",https://cdn.mbtace.com/archive/20191220.zip,"Per [@MBTA_CR tweet](https://twitter.com/MBTA_CR/status/1210645494558580744):; > Bikes, including folding bikes, are not allowed on all inbound trains between; > 10 am and 6 pm and on all outbound trains from 4 pm until the end of; > service.; I didn't add any new bikes allowed, but only removed them during the times; mentioned in the tweet."
+20191216,20191219,"Winter 2020, 2019-12-23T16:40:04+00:00, version D",https://cdn.mbtace.com/archive/20191216.zip,"We allow alerts to be against data that's in the 1-week lookback, so not; everything in an alert also needs to be in the current feed."
+20191211,20191215,"Winter 2020, 2019-12-18T22:12:30+00:00, version D",https://cdn.mbtace.com/archive/20191211.zip,Some subway trips were missing shape IDs: this patch adds them back.
+20191210,20191210,"Winter 2020, 2019-12-17T18:53:47+00:00, version D",https://cdn.mbtace.com/archive/20191210.zip,
+20191209,20191209,"Winter 2020, 2019-12-16T18:44:46+00:00, version D",https://cdn.mbtace.com/archive/20191209.zip,From Norman Michaud:; > Early access tonight for the Orange Line  project has been cancelled for tonight.
+20191206,20191208,"Winter 2020, 2019-12-13T20:23:22+00:00, version D",https://cdn.mbtace.com/archive/20191206.zip,
+20191203,20191205,"Fall 2019, 2019-12-10T16:10:10+00:00, version D",https://cdn.mbtace.com/archive/20191203.zip,
+20191128,20191202,"Fall 2019, 2019-12-05T15:54:32+00:00, version D",https://cdn.mbtace.com/archive/20191128.zip,
+20191126,20191127,"Fall 2019, 2019-12-03T15:54:59+00:00, version D",https://cdn.mbtace.com/archive/20191126.zip,From James Caroselli:; > Good morning all; because of the ongoing storm and the condition of the track bed when it subsides the early access diversion scheduled for the OL between Oak Grove and Wellington for Tuesday into Wednesday will be cancelled.
+20191125,20191125,"Fall 2019, 2019-12-02T16:08:58+00:00, version D",https://cdn.mbtace.com/archive/20191125.zip,"We add an additional buffer of 45s when transferring between stations.; The 45s was calculated to still promote walking from Park Street to Downtown; Crossing Orange Line SB, but not Orange Line NB."
+20191123,20191124,"Fall 2019, 2019-11-30T00:04:15+00:00, version D",https://cdn.mbtace.com/archive/20191123.zip,"From James Caroselli, via e-mail:; > With the threat of snow Sunday, Middlesex will be cancelling the early; > access work on the OL Sunday into Monday, soak grove to Wellington"
+20191120,20191122,"Fall 2019, 2019-11-27T16:51:26+00:00, version D",https://cdn.mbtace.com/archive/20191120.zip,
+20191114,20191119,"Fall 2019, 2019-11-21T21:14:23+00:00, version D",https://cdn.mbtace.com/archive/20191114.zip,Greenbush line shuttle; Fixed the name for Weymouth Landing / East Braintree stop; Making Greenbush shuttle to be a multi-route trip
+20191030,20191113,"Fall 2019, 2019-11-06T16:02:59+00:00, version D",https://cdn.mbtace.com/archive/20191030.zip,"Check that pathways have valid data; Pathways should have only one of length, traversal_time, stair_count; Escalator traversal times no longer have / characters; Walk-elevator traversal times no longer have / characters; Multi-modal pathways with steps are not tagged as walkways; pathway_code should be a string, not float"
+20191024,20191029,"Fall 2019, 2019-10-31T18:51:46+00:00, version D",https://cdn.mbtace.com/archive/20191024.zip,
+20191017,20191023,"Fall 2019, 2019-10-24T19:49:31+00:00, version D",https://cdn.mbtace.com/archive/20191017.zip,Green Line D branch switch to Newton Highlands/Fenway weekends 11/15 - 12/8; Cancel SL transitway disruption weekend of 10/25-27; Remove Red Sox schedule
+20191014,20191016,"Fall 2019, 2019-10-21T20:45:56+00:00, version D",https://cdn.mbtace.com/archive/20191014.zip,
+20191011,20191013,"Fall 2019, 2019-10-18T20:54:54+00:00, version D",https://cdn.mbtace.com/archive/20191011.zip,
+20191010,20191010,"Fall 2019, 2019-10-17T18:49:38+00:00, version D",https://cdn.mbtace.com/archive/20191010.zip,
+20191009,20191009,"Fall 2019, 2019-10-16T17:29:47+00:00, version D",https://cdn.mbtace.com/archive/20191009.zip,
+20191008,20191008,"Fall 2019, 2019-10-15T17:06:20+00:00, version D",https://cdn.mbtace.com/archive/20191008.zip,
+20191005,20191007,"Fall 2019, 2019-10-12T12:23:03+00:00, version D",https://cdn.mbtace.com/archive/20191005.zip,
+20191003,20191004,"Fall 2019, 2019-10-10T19:37:19+00:00, version D",https://cdn.mbtace.com/archive/20191003.zip,
+20190926,20191002,"Fall 2019, 2019-10-03T15:17:49+00:00, version D",https://cdn.mbtace.com/archive/20190926.zip,Move stop 2829 back to original location; Move OL shuttle stops to reflect signage plan
+20190919,20190925,"Fall 2019, 2019-09-26T06:13:53+00:00, version D",https://cdn.mbtace.com/archive/20190919.zip,
+20190917,20190918,"Fall 2019, 2019-09-24T23:20:57+00:00, version D",https://cdn.mbtace.com/archive/20190917.zip,
+20190914,20190916,"Fall 2019, 2019-09-21T16:35:56+00:00, version D",https://cdn.mbtace.com/archive/20190914.zip,
+20190912,20190913,"Fall 2019, 2019-09-19T14:59:31+00:00, version D",https://cdn.mbtace.com/archive/20190912.zip,Rename 20762 to be a generic busway at Harvard; Also update level for stop_id 20762
+20190905,20190911,"Fall 2019, 2019-09-12T17:05:36+00:00, version D",https://cdn.mbtace.com/archive/20190905.zip,
+20190902,20190904,"Fall 2019, 2019-09-09T16:29:58+00:00, version D",https://cdn.mbtace.com/archive/20190902.zip,
+20190830,20190901,"Fall 2019, 2019-09-06T18:36:09+00:00, version D",https://cdn.mbtace.com/archive/20190830.zip,
+20190829,20190829,"Fall 2019, 2019-09-05T18:36:42+00:00, version D",https://cdn.mbtace.com/archive/20190829.zip,
+20190822,20190828,"Fall 2019, 2019-08-29T16:59:59+00:00, version D",https://cdn.mbtace.com/archive/20190822.zip,Remove Somerville bus stops closed with Broadway bus lane; Only remove closed bus stops from stop_times.txt but keep them in stops.txt; Don't remove the closed bus stops in alerts_ui
+20190815,20190821,"Fall 2019, 2019-08-22T20:01:47+00:00, version D",https://cdn.mbtace.com/archive/20190815.zip,
+20190813,20190814,"Fall 2019, 2019-08-20T16:20:01+00:00, version D",https://cdn.mbtace.com/archive/20190813.zip,
+20190809,20190812,"Fall 2019, 2019-08-16T11:05:17+00:00, version D",https://cdn.mbtace.com/archive/20190809.zip,
+20190808,20190808,"Fall 2019, 2019-08-15T18:57:31+00:00, version D",https://cdn.mbtace.com/archive/20190808.zip,
+20190802,20190807,"Summer 2019, 2019-08-09T14:29:37+00:00, version D",https://cdn.mbtace.com/archive/20190802.zip,
+20190801,20190801,"Summer 2019, 2019-08-08T16:14:31+00:00, version D",https://cdn.mbtace.com/archive/20190801.zip,Per Rose Yates:; > On the second piece (special events) we need to change that now and not; wait until service starts.; and; > â€‹I think Foxboro Line makes sense.
+20190726,20190731,"Summer 2019, 2019-08-02T16:39:56+00:00, version D",https://cdn.mbtace.com/archive/20190726.zip,
+20190725,20190725,"Summer 2019, 2019-08-01T16:06:19+00:00, version D",https://cdn.mbtace.com/archive/20190725.zip,"Otherwise, I get the Spring rating before the Fall rating and that doesn't; include the extra street/municipality data."
+20190719,20190724,"Summer 2019, 2019-07-26T16:44:17+00:00, version D",https://cdn.mbtace.com/archive/20190719.zip,- Chelsea is 1A; - Westborough is 7 (parent station was correct); Fixes mbta/gtfs_documentation#22
+20190718,20190718,"Summer 2019, 2019-07-25T18:20:53+00:00, version D",https://cdn.mbtace.com/archive/20190718.zip,
+20190717,20190717,"Summer 2019, 2019-07-24T16:11:29+00:00, version D",https://cdn.mbtace.com/archive/20190717.zip,
+20190712,20190716,"Summer 2019, 2019-07-19T16:41:26+00:00, version D",https://cdn.mbtace.com/archive/20190712.zip,Braintree branch shuttles 7/20-21
+20190711,20190711,"Summer 2019, 2019-07-18T20:50:40+00:00, version D",https://cdn.mbtace.com/archive/20190711.zip,
+20190708,20190710,"Summer 2019, 2019-07-15T20:34:37+00:00, version D",https://cdn.mbtace.com/archive/20190708.zip,
+20190704,20190707,"Summer 2019, 2019-07-11T18:18:50+00:00, version D",https://cdn.mbtace.com/archive/20190704.zip,
+20190702,20190703,"Summer 2019, 2019-07-09T16:59:07+00:00, version D",https://cdn.mbtace.com/archive/20190702.zip,New Service for Red Sox home games
+20190624,20190701,"Summer 2019, 2019-07-01T14:03:51+00:00, version D",https://cdn.mbtace.com/archive/20190624.zip,
+20190621,20190623,"Summer 2019, 2019-06-28T19:25:39+00:00, version D",https://cdn.mbtace.com/archive/20190621.zip,
+20190620,20190620,"Summer 2019, 2019-06-27T12:27:56+00:00, version D",https://cdn.mbtace.com/archive/20190620.zip,Add mini-high platform for Lechmere
+20190612,20190619,"Summer 2019, 2019-06-19T15:48:44+00:00, version D",https://cdn.mbtace.com/archive/20190612.zip,
+20190610,20190611,"Summer 2019, 2019-06-17T17:27:00+00:00, version D",https://cdn.mbtace.com/archive/20190610.zip,
+20190609,20190609,"Summer 2019, 2019-06-16T13:01:46+00:00, version D",https://cdn.mbtace.com/archive/20190609.zip,
+20190607,20190608,"Summer 2019, 2019-06-14T18:10:17+00:00, version D",https://cdn.mbtace.com/archive/20190607.zip,
+20190606,20190606,"Summer 2019, 2019-06-13T23:09:09+00:00, version D",https://cdn.mbtace.com/archive/20190606.zip,
+20190603,20190605,"Spring 2019, 2019-06-10T20:54:55+00:00, version D",https://cdn.mbtace.com/archive/20190603.zip,
+20190530,20190602,"Spring 2019, 2019-06-06T05:59:34+00:00, version D",https://cdn.mbtace.com/archive/20190530.zip,
+20190527,20190529,"Spring 2019, 2019-06-03T17:42:30+00:00, version D",https://cdn.mbtace.com/archive/20190527.zip,
+20190523,20190526,"Spring 2019, 2019-05-30T16:31:52+00:00, version D",https://cdn.mbtace.com/archive/20190523.zip,"Not sure how this happened, but we didn't include the first weekend trips; during the Gloucester Drawbridge disruption."
+20190516,20190522,"Spring 2019, 2019-05-23T15:25:12+00:00, version D",https://cdn.mbtace.com/archive/20190516.zip,Disables the NewtonHighlandsRiverside and LittletonWachusett shuttles.
+20190510,20190515,"Spring 2019, 2019-05-17T19:46:01+00:00, version D",https://cdn.mbtace.com/archive/20190510.zip,
+20190509,20190509,"Spring 2019, 2019-05-16T06:20:01+00:00, version D",https://cdn.mbtace.com/archive/20190509.zip,
+20190507,20190508,"Spring 2019, 2019-05-14T16:19:40+00:00, version D",https://cdn.mbtace.com/archive/20190507.zip,
+20190504,20190506,"Spring 2019, 2019-05-11T20:02:01+00:00, version D",https://cdn.mbtace.com/archive/20190504.zip,
+20190503,20190503,"Spring 2019, 2019-05-10T19:59:03+00:00, version D",https://cdn.mbtace.com/archive/20190503.zip,This reverts commit 0704efb6030ddeb995e2c689090556366a4a796b.
+20190502,20190502,"Spring 2019, 2019-05-09T05:56:01+00:00, version D",https://cdn.mbtace.com/archive/20190502.zip,
+20190426,20190501,"Spring 2019, 2019-05-03T17:53:16+00:00, version D",https://cdn.mbtace.com/archive/20190426.zip,It's not modified from the previous schedule.
+20190425,20190425,"Spring 2019, 2019-05-02T18:46:13+00:00, version D",https://cdn.mbtace.com/archive/20190425.zip,
+20190424,20190424,"Spring 2019, 2019-05-01T16:00:09+00:00, version D",https://cdn.mbtace.com/archive/20190424.zip,New Commuter Rail schedule
+20190420,20190423,"Spring 2019, 2019-04-27T18:21:53+00:00, version D",https://cdn.mbtace.com/archive/20190420.zip,
+20190419,20190419,"Spring 2019, 2019-04-26T14:15:21+00:00, version D",https://cdn.mbtace.com/archive/20190419.zip,
+20190418,20190418,"Spring 2019, 2019-04-25T05:48:35+00:00, version D",https://cdn.mbtace.com/archive/20190418.zip,
+20190412,20190417,"Spring 2019, 2019-04-19T14:52:43+00:00, version D",https://cdn.mbtace.com/archive/20190412.zip,
+20190411,20190411,"Spring 2019, 2019-04-18T13:30:39+00:00, version D",https://cdn.mbtace.com/archive/20190411.zip,
+20190404,20190410,"Spring 2019, 2019-04-11T19:32:22+00:00, version D",https://cdn.mbtace.com/archive/20190404.zip,Unquote input/commuter_rail/stops.txt; Unquote a bunch of other files
+20190401,20190403,"Spring 2019, 2019-04-08T20:02:56+00:00, version D",https://cdn.mbtace.com/archive/20190401.zip,
+20190331,20190331,"Spring 2019, 2019-04-07T20:46:52+00:00, version D",https://cdn.mbtace.com/archive/20190331.zip,
+20190328,20190330,"Spring 2019, 2019-04-04T06:19:47+00:00, version D",https://cdn.mbtace.com/archive/20190328.zip,
+20190324,20190327,"Spring 2019, 2019-03-31T18:59:12+00:00, version D",https://cdn.mbtace.com/archive/20190324.zip,
+20190321,20190323,"Spring 2019, 2019-03-28T19:21:52+00:00, version D",https://cdn.mbtace.com/archive/20190321.zip,
+20190315,20190320,"Spring 2019, 2019-03-22T00:05:10+00:00, version D",https://cdn.mbtace.com/archive/20190315.zip,Add tests for `LowellBusReplacement`
+20190309,20190314,"Spring 2019, 2019-03-16T19:58:57+00:00, version D",https://cdn.mbtace.com/archive/20190309.zip,
+20190307,20190308,"Spring 2019, 2019-03-14T00:54:37+00:00, version D",https://cdn.mbtace.com/archive/20190307.zip,Add lobby-specific level_ids; Add non-ground levels exclusively for transfers; More levels for Wonderland
+20190304,20190306,"Spring 2019, 2019-03-11T17:03:36+00:00, version D",https://cdn.mbtace.com/archive/20190304.zip,
+20190228,20190303,"Spring 2019, 2019-03-07T18:05:31+00:00, version D",https://cdn.mbtace.com/archive/20190228.zip,New HASTUS rating Spring 2019
+20190227,20190227,"Spring 2019, 2019-03-06T20:36:39+00:00, version D",https://cdn.mbtace.com/archive/20190227.zip,
+20190222,20190226,"Winter 2018, 2019-03-01T14:46:31+00:00, version D",https://cdn.mbtace.com/archive/20190222.zip,
+20190220,20190221,"Winter 2018, 2019-02-27T20:47:09+00:00, version D",https://cdn.mbtace.com/archive/20190220.zip,
+20190217,20190219,"Winter 2018, 2019-02-24T20:51:26+00:00, version D",https://cdn.mbtace.com/archive/20190217.zip,
+20190214,20190216,"Winter 2018, 2019-02-21T18:44:01+00:00, version D",https://cdn.mbtace.com/archive/20190214.zip,
+20190206,20190213,"Winter 2018, 2019-02-13T20:25:52+00:00, version D",https://cdn.mbtace.com/archive/20190206.zip,
+20190204,20190205,"Winter 2018, 2019-02-11T18:33:29+00:00, version D",https://cdn.mbtace.com/archive/20190204.zip,
+20190128,20190203,"Winter 2018, 2019-02-04T19:41:25+00:00, version D",https://cdn.mbtace.com/archive/20190128.zip,
+20190125,20190127,"Winter 2018, 2019-02-01T18:08:15+00:00, version D",https://cdn.mbtace.com/archive/20190125.zip,
+20190124,20190124,"Winter 2018, 2019-01-31T16:29:13+00:00, version D",https://cdn.mbtace.com/archive/20190124.zip,
+20190123,20190123,"Winter 2018, 2019-01-30T15:34:46+00:00, version D",https://cdn.mbtace.com/archive/20190123.zip,extend Braintree EA to March
+20190117,20190122,"Winter 2018, 2019-01-24T20:52:54+00:00, version D",https://cdn.mbtace.com/archive/20190117.zip,
+20190115,20190116,"Winter 2018, 2019-01-22T18:12:00+00:00, version D",https://cdn.mbtace.com/archive/20190115.zip,Braintree EA cancelled today 2019-01-22
+20190111,20190114,"Winter 2018, 2019-01-18T17:55:12+00:00, version D",https://cdn.mbtace.com/archive/20190111.zip,cancel disruptions this weekend
+20190110,20190110,"Winter 2018, 2019-01-17T17:47:42+00:00, version D",https://cdn.mbtace.com/archive/20190110.zip,"Otherwise, the `cp` will fail when the directory does not exist."
+20190109,20190109,"Winter 2018, 2019-01-16T21:55:13+00:00, version D",https://cdn.mbtace.com/archive/20190109.zip,"Otherwise, the `cp` will fail when the directory does not exist."
+20190107,20190108,"Winter 2018, 2019-01-14T15:32:16+00:00, version D",https://cdn.mbtace.com/archive/20190107.zip,
+20190103,20190106,"Winter 2018, 2019-01-10T16:37:41+00:00, version D",https://cdn.mbtace.com/archive/20190103.zip,Generate all_trips.txt for ctps
+20190102,20190102,"Winter 2018, 2019-01-09T17:26:09+00:00, version D",https://cdn.mbtace.com/archive/20190102.zip,Add Alewife/Harvard + Braintree/North Quincy shuttles; Remove Green-D shuttles 1/9-10
+20181231,20190101,"Winter 2018, 2019-01-07T18:56:23+00:00, version D",https://cdn.mbtace.com/archive/20181231.zip,Fitchburg stopping @ Porter before 18:00 this weekend
+20181228,20181230,"Winter 2018, 2019-01-04T18:06:18+00:00, version D",https://cdn.mbtace.com/archive/20181228.zip,Fitchburg stopping @ Porter before 18:00 this weekend
+20181226,20181227,"Winter 2018, 2019-01-02T19:03:49+00:00, version D",https://cdn.mbtace.com/archive/20181226.zip,
+20181220,20181225,"Winter 2018, 2018-12-27T23:15:02+00:00, version D",https://cdn.mbtace.com/archive/20181220.zip,
+20181219,20181219,"Winter 2018, 2018-12-26T23:21:22+00:00, version D",https://cdn.mbtace.com/archive/20181219.zip,v8 HASTUS export
+20181213,20181218,"Winter 2018, 2018-12-20T16:41:36+00:00, version D",https://cdn.mbtace.com/archive/20181213.zip,"- cancelled tonight; - Weekends, January 5 to March 24. Excluding February 3 (Superbowl) and March 16-17 (St. Patrick's Day)"
+20181206,20181212,"Winter 2018, 2018-12-13T16:34:03+00:00, version D",https://cdn.mbtace.com/archive/20181206.zip,
+20181203,20181205,"Winter 2018, 2018-12-10T19:35:20+00:00, version D",https://cdn.mbtace.com/archive/20181203.zip,updated CR Holidays
+20181128,20181202,"Fall 2018, 2018-12-05T19:11:19+00:00, version D",https://cdn.mbtace.com/archive/20181128.zip,
+20181127,20181127,"Fall 2018, 2018-12-04T15:08:49+00:00, version D",https://cdn.mbtace.com/archive/20181127.zip,add validator to make sure there are no duplicate short names for service_ids on the same day; format; cleanup var name and add some data to a test case
+20181122,20181126,"Fall 2018, 2018-11-29T12:33:39+00:00, version D",https://cdn.mbtace.com/archive/20181122.zip,disruptions 2018-11-28
+20181113,20181121,"Fall 2018, 2018-11-20T16:28:55+00:00, version D",https://cdn.mbtace.com/archive/20181113.zip,pull entrance data from Google Sheets
+20181112,20181112,"Fall 2018, 2018-11-19T19:13:13+00:00, version D",https://cdn.mbtace.com/archive/20181112.zip,
+20181108,20181111,"Fall 2018, 2018-11-15T18:40:22+00:00, version D",https://cdn.mbtace.com/archive/20181108.zip,"These stops are in the previous feed, but we aren't including any trips which stop there. Therefore, we shouldn't be copying those stops into the merged feed."
+20181031,20181107,"Fall 2018, 2018-11-07T17:21:07+00:00, version D",https://cdn.mbtace.com/archive/20181031.zip,
+20181030,20181030,"Fall 2018, 2018-11-06T02:57:42+00:00, version D",https://cdn.mbtace.com/archive/20181030.zip,
+20181025,20181029,"Fall 2018, 2018-11-01T21:47:28+00:00, version D",https://cdn.mbtace.com/archive/20181025.zip,
+20181004,20181024,"Fall 2018, 2018-10-10T12:57:21+00:00, version D",https://cdn.mbtace.com/archive/20181004.zip,
+20181003,20181003,"Fall 2018, 2018-10-09T20:20:04+00:00, version D",https://cdn.mbtace.com/archive/20181003.zip,
+20180930,20181002,"Fall 2018, 2018-10-06T13:30:30+00:00, version D",https://cdn.mbtace.com/archive/20180930.zip,Fixes formatting problem with track numbers
+20180929,20180929,"Fall 2018, 2018-10-05T13:14:24+00:00, version D",https://cdn.mbtace.com/archive/20180929.zip,"Shuttle date changes, and new backend creation process"
+20180920,20180928,"Fall 2018 version 8D, 9/27/18",https://cdn.mbtace.com/archive/20180920.zip,"Adds bus shuttles on Greenbush line, and two separate shuttles on the Green Line"
+20180913,20180919,"Fall 2018 version 7D, 9/20/18",https://cdn.mbtace.com/archive/20180913.zip,Changes some parking facility data and adds Orange Line shuttles for weekends of 9/22-23 and 9/29-30
+20180907,20180912,"Fall 2018 version 6D revision 1, 9/13/18",https://cdn.mbtace.com/archive/20180907.zip,Fixes Braintree branch shuttles
+20180906,20180906,"Fall 2018 version 6D, 9/13/18",https://cdn.mbtace.com/archive/20180906.zip,Splits certain school trips to multiple trips on separate routes.
+20180830,20180905,"Fall 2018 version 5D, 9/6/18",https://cdn.mbtace.com/archive/20180830.zip,"Adds Red Line & Commuter Rail disruptions relating to Quincy Center garage work, two Franklin Line trips skipping Back Bay 9/10-9/14"
+20180824,20180829,"Fall 2018 version 4D, 8/31/18",https://cdn.mbtace.com/archive/20180824.zip,Updates facilities to reflect new parking rates as of 9/1/18
+20180823,20180823,"Fall 2018 version 3D, 8/30/18",https://cdn.mbtace.com/archive/20180823.zip,Adds Mattapan Line shuttles 9/1-9/8 and Orange Line Forest Hills-Ruggles shuttles weekends 9/1-9
+20180817,20180822,"Fall 2018 version 2D, 8/24/18",https://cdn.mbtace.com/archive/20180817.zip,"Corrects names & addresses of several stations & stops, removes duplicate Red line schedules for 8/23, update trip_headsigns for several routes to better match headsigns on buses"
+20180809,20180816,"Fall 2018 version 1D, 8/16/18",https://cdn.mbtace.com/archive/20180809.zip,"Adds schedules for Fall 2018 rating, and Orange Line shuttles Back Bay-Ruggles weekends 8/18-25"
+20180803,20180808,"Summer 2018 version 13D-revised, 8/10/18",https://cdn.mbtace.com/archive/20180803.zip,Fixes route colors for bus and Silver Line route_sort_order issue
+20180802,20180802,"Summer 2018 version 13D, 8/9/18",https://cdn.mbtace.com/archive/20180802.zip,"Adds descriptive route_long_name for bus routes, Green-D Brookline Hills-Kenmore shuttles 8/13-16, Patriots trains to Foxboro, and various Red Line shuttle changes"
+20180727,20180801,"Summer 2018 version 12D, 8/3/18",https://cdn.mbtace.com/archive/20180727.zip,Extends Worcester Line PTC shuttles through 8/5
+20180726,20180726,"Summer 2018 version 11D, 8/2/18",https://cdn.mbtace.com/archive/20180726.zip,"Deactivates Worcester Line evening shuttles for 8/3 and Red Line Braintree-branch shuttles 8/12-13, adds Fairmount Line shuttles; splits Boat-Long stop into two stops"
+20180723,20180725,"Summer 2018 version 10D, 7/30/18",https://cdn.mbtace.com/archive/20180723.zip,Combines both legs of Green-B service during the Comm Ave shuttles onto the same service_id
+20180719,20180722,"Summer 2018 version 9D, 7/26/18",https://cdn.mbtace.com/archive/20180719.zip,"Makes changes to Worcester Line stop_times during Comm Ave bridge construction, removes Needham Line Saturday service 8/11-9/8, adds extra Lowell Line trains for Lowell Folk Festival, extends Stoughton PTC shuttles through December"
+20180713,20180718,"Summer 2018 version 8D, 7/20/18",https://cdn.mbtace.com/archive/20180713.zip,"Adds Worcester Line evening disruption during Comm Ave bridge construction, Foxboro train 8/5, Green-B Boston College-Washington Street shuttles 7/21-22, updates retail fare sales locations, various parking facilities changes, fixes pathways for Boylston"
+20180706,20180712,"Summer 2018 version 7D, 7/13/18",https://cdn.mbtace.com/archive/20180706.zip,"Adds Comm Ave shuttles on Green-B, Boston College-Babcock Street Green-B shuttles weekends 7/14-22, Forest Hills-Jackson Square shuttles 7/21-22"
+20180630,20180705,"Summer 2018 version 6D, 7/6/18",https://cdn.mbtace.com/archive/20180630.zip,"Deactivates Oak Grove-Sullivan evening shuttles, fixes Red Line schedule problem on July 4, adds retail fare sales locations to facilities, updates headsigns and stop names for consistency"
+20180626,20180629,"Summer 2018 version 5D, 7/3/18",https://cdn.mbtace.com/archive/20180626.zip,"Enable Lowell Line shuttles weekends 7/7 through end of 2018 and Oak Grove-Sullivan shuttles 7/7, updates stop_times and trip_short_name for extra July 4 Newburyport train, deactivates Boston College-Washington Street shuttles 7/7-8"
+20180621,20180625,"Summer 2018 version 4D, 6/29/18",https://cdn.mbtace.com/archive/20180621.zip,"Adds evening Orange Line Oak Grove-Sullivan shuttles Mon-Wed 6/25-8/8, weekend Oak Grove-Wellington shuttles 6/30-7/1, and extra late-night CR trains on July 4, adds lat/long to parking facilities"
+20180612,20180620,"Summer 2018 version 3D, 6/19/18",https://cdn.mbtace.com/archive/20180612.zip,"Adds evening Braintree branch shuttles for entire Summer rating, ends Fairmount Line weeknight shuttles, adds fare vending machines and simple Pathways and fixes route assignment of Green-B shuttle trips"
+20180607,20180611,"Summer 2018 version 2D, 6/14/18",https://cdn.mbtace.com/archive/20180607.zip,"Adds Worcester Line PTC phase 2 shuttles and Oak Grove-Sullivan shuttles 7/14-15, fixes direction property for escalator facilities"
+20180531,20180606,"Summer 2018 version 1D, 6/7/18",https://cdn.mbtace.com/archive/20180531.zip,"Adds Summer 2018 schedules, renames two bus stops to reflect renaming of Yawkey Way"
+20180526,20180530,"Spring 2018 version 13D rev1, 6/1/18",https://cdn.mbtace.com/archive/20180526.zip,Fixes calendar issue with Fitchburg Line schedules
+20180525,20180525,Spring 2018 version 13D 6/1/18,https://cdn.mbtace.com/archive/20180525.zip,Deactivates Fitchburg Line PTC shuttles for 6/2-3
+20180516,20180524,"Spring 2018 version 12D, 5/24/18",https://cdn.mbtace.com/archive/20180516.zip,"Updates Summer ferry schedule, adds Forest Hills-Jackson Square shuttles 5/26-27, adds Hull parking lot to facilities"
+20180511,20180515,"Spring 2018 version 11D, 5/18/18",https://cdn.mbtace.com/archive/20180511.zip,"Adds Red Line North Quincy-Braintree shuttles for 5/19-20, extends Stoughon PTC shuttles, adds 2018 CapeFlyer service, various other fixes"
+20180508,20180510,"Spring 2018 version 10D, 5/15/18",https://cdn.mbtace.com/archive/20180508.zip,"Adds various station modeling features, fixes various issues with Worcester & Lowell Line shuttles"
+20180503,20180507,"Spring 2018 version 9D, 5/10/18",https://cdn.mbtace.com/archive/20180503.zip,"Adds Lowell Line shuttles 5/13-27 and Worcester Line shuttles 5/27-6/17, deactivates Green-D shuttles for 5/12-13, adds Spring 2018 Commuter Rail schedue (active 5/21)"
+20180427,20180502,"Spring 2018 version 8D, 5/4/18",https://cdn.mbtace.com/archive/20180427.zip,"Adds Old Colony Lines terminating at Braintree 5/19-20, Fitchburg Line terminating at Porter weekends 5/5-6/17"
+20180419,20180426,"Spring 2018 version 7D, 4/26/18",https://cdn.mbtace.com/archive/20180419.zip,Various fixes on Silver Line
+20180412,20180418,"Spring 2018 version 6D, 4/19/18",https://cdn.mbtace.com/archive/20180412.zip,"Changes the stop times of Commuter Rail Stoughton branch shuttles and dates of Lowell Line shuttles, removes some satellite bus stops from parent stations"
+20180411,20180411,"Spring 2018 version 5D, 4/18/18",https://cdn.mbtace.com/archive/20180411.zip,"Adds Lowell Line shuttles for 4/21-22, Providence Line shuttles on four Stoughton trains Mon-Wed between 4/23 and 5/16, and Longfellow Bridge shuttles on the Red Line for weekends April 21-22, 28-29; adds Commuter Rail platforms for North Station, South Station and Back Bay; and updates some facility information"
+20180403,20180410,"Spring 2018 version 4D, 4/10/18",https://cdn.mbtace.com/archive/20180403.zip,Adds extra trips/stops on Worcester Line for Marathon Monday (4/16)
+20180328,20180402,"Spring 2018 version 3D, 4/4/18",https://cdn.mbtace.com/archive/20180328.zip,Adds Franklin Line Commuter rail shuttles for weekends from 4/7-5/27
+20180323,20180327,"Spring 2018 version 2D, 3/30/18",https://cdn.mbtace.com/archive/20180323.zip,Removes Wollaston Early Access shuttles for weekends from 3/28-4/1
+20180309,20180322,"Spring 2018 version 1D, 3/19/18",https://cdn.mbtace.com/archive/20180309.zip,Add Spring schedules
+20180307,20180308,"Winter 2018 version 11D, 3/14/18",https://cdn.mbtace.com/archive/20180307.zip,Adds facilities files for describing in-station facilities
+20180306,20180306,"Winter 2018 version 10D, 3/12/18",https://cdn.mbtace.com/archive/20180306.zip,Fixes issue with added Commuter Rail trips on 3/13 being excluded
+20180305,20180305,"Winter 2018 version 9D, 3/12/18",https://cdn.mbtace.com/archive/20180305.zip,Activates Extremely Reduced schedule for Commuter Rail on 3/13 and also removes Ferry service on 3/13
+20180301,20180304,"Winter 2018 version 8D, 3/8/18",https://cdn.mbtace.com/archive/20180301.zip,
+20180216,20180228,"Winter 2018 version 7D, 2/23/18",https://cdn.mbtace.com/archive/20180216.zip,Removes Wollaston Early Access shuttles for weekends from 2/17-3/11; changes wheelchair_boarding value for many bus stops
+20180118,20180215,"Winter 2018 version 6D, 1/25/18",https://cdn.mbtace.com/archive/20180118.zip,Removes Wollaston Early Access shuttles for weekends from 1/27-2/11; fixes stops for Wollaston and Early Access shuttles
+20180109,20180117,"Winter 2018 version 5D, 1/16/18",https://cdn.mbtace.com/archive/20180109.zip,Adds Green Line shuttles between Newton Highlands and Brookline Hills; Adds CR-Foxboro trips for 1/21; Fixes stop_times for Shuttle005 northbound
+20180104,20180108,"Winter 2018 version 4D, 1/11/18",https://cdn.mbtace.com/archive/20180104.zip,Fixes Route 230 bus schedule; removes Longfellow Bridge shuttle for Jan 13-14;Fixes stop_time for Quincy Center on Greenbush train 085
+20171227,20180103,"Winter 2018 version 3D, 1/3/18",https://cdn.mbtace.com/archive/20171227.zip,Adds Jan 13 CR-Foxboro trips; updates shapes for Braintree branch Red Line shuttles; removes Longfellow bridge shuttle for Jan 6-7; activates Reduced CR schedule for Jan 4
+20171214,20171226,"Winter 2018 version 2D, 12/21/17",https://cdn.mbtace.com/archive/20171214.zip,New modelling of shuttles into separate routes; fixes shapes for Routes 230 and 238 at Quincy Adams; extra New Year's Eve trains
+20171206,20171213,"Winter 2018 version 1D, 12/13/17",https://cdn.mbtace.com/archive/20171206.zip,Includes Wollaston closure beginning 1/08 and weeknight and weekend disruptions on the Red Line
+20171201,20171205,"Fall 2017 version 20D, 12/08/17",https://cdn.mbtace.com/archive/20171201.zip,Cancelation of Longfellow Bridge and Riverside Branch diversions 12/09-10 due to severe weather
+20171130,20171130,"Fall 2017 version 19D, 12/07/17",https://cdn.mbtace.com/archive/20171130.zip,Stop time correction for Train 524; adjusts North Quincy to Braintree shuttle running times; adds contact fields to feed_info.txt
+20171123,20171129,"Fall 2017 version 18D, 11/30/17",https://cdn.mbtace.com/archive/20171123.zip,Early resumption of Haverhill weekend trains; Fairmount Line shuttles; bus stop and route adjustments for Red Line Longfellow and Green Line Riverside shuttles
+20171114,20171122,"Fall 2017 version 17D, 11/21/17",https://cdn.mbtace.com/archive/20171114.zip,Fix for Southampton Garage bus schedule 11/24; Wollaston Early Access shuttle on Red Line; Green Line weekend shuttles 11/25 through 12/17
+20171113,20171113,"Fall 2017 version 16D, 11/20/17",https://cdn.mbtace.com/archive/20171113.zip,Boat-F1 changes for Thanksgiving Eve; changes route_desc for route_id CR-Foxboro
+20171110,20171112,"Fall 2017 version 15D, 11/17/17",https://cdn.mbtace.com/archive/20171110.zip,Introduces Foxboro special event service (toward Foxboro only) under route_id CR-Foxboro
+20171108,20171109,"Fall 2017 version 14D, 11/15/17",https://cdn.mbtace.com/archive/20171108.zip,Cancels planned Red Line disruption 11/18-19; adds shuttle stops to Orange Line 11/18-19
+20171101,20171107,"Fall 2017 version 13D-revision 1, 11/08/17",https://cdn.mbtace.com/archive/20171101.zip,Corrects error in stop_times.txt
+20171031,20171031,"Fall 2017 version 13D, 11/07/17",https://cdn.mbtace.com/archive/20171031.zip,Adds Commuter Rail schedules effective 11/20; adjustments to route_sort_order in routes.txt; parent stop of Newton Highlands marked as inaccessible
+20171020,20171030,"Fall 2017 version 12D, 10/27/17",https://cdn.mbtace.com/archive/20171020.zip,Adds Orange Line shuttle service for weekends of 11/04-05 11/11-12 and 11/18-19; adds Route 746 (Silver Line Waterfront) trips to multi_route_trips.txt for Route 741 and 742
+20171012,20171019,"Fall 2017 version 11D, 10/18/17",https://cdn.mbtace.com/archive/20171012.zip,flag stops for added Newburyport Line weekend trips; trip_route_type fix for shuttle bus trips; early resumption of Needham Line Saturday service 10/28/17
+20171011,20171011,"Fall 2017 version 10D, 10/11/17",https://cdn.mbtace.com/archive/20171011.zip,Adds Orange Line change 10/28-29/17; adds Newburyport Line weekend service 10/21-29/17; changes ferry stop names
+20171003,20171010,"Fall 2017 version 9D, 10/03/17",https://cdn.mbtace.com/archive/20171003.zip,Adds Orange Line change 10/21-22/17; stop time and shape adjustments for Red Line weekend shuttle; changes ferry stop names; removes Stop 2511 from Route 85/91
+20170919,20171002,"Fall 2017 version 8D, 9/19/17",https://cdn.mbtace.com/archive/20170919.zip,Adds Orange Line shuttle service for weekend of 9/23-24/17
+20170913,20170918,"Fall 2017 version 7D, 9/13/17",https://cdn.mbtace.com/archive/20170913.zip,"wheelchair_accessible values filled for child rapid transit stop_ids; Fitchburg, Worcester, Haverhill Line weekend disruptions; Haverhill Line weekend PTC schedule; Orange and Red Line weekend shuttles"
+20170906,20170912,"Fall 2017 version 6D, 9/06/17",https://cdn.mbtace.com/archive/20170906.zip,"Fairmount Line weekend schedules ended, checkpoint_id added, subway-to-subway transfers"
+20170829,20170905,"Fall 2017 version 5D, 8/29/17",https://cdn.mbtace.com/archive/20170829.zip,Reverts Rockport Line weekday midday to regular schedule; Lowell Line operates on rail for Labor Day holiday schedule
+20170824,20170828,"Fall 2017 version 4D, 8/24/17",https://cdn.mbtace.com/archive/20170824.zip,Adds trip_route_type to trips.txt; Rockport Line weekday midday construction schedule; Route 716 schedule change for fall; shuttle trip_headsigns; removal of Boat-F3 and Beverly-Salem
+20170817,20170823,"Fall 2017 version 3D, 8/17/17",https://cdn.mbtace.com/archive/20170817.zip,Changes to transfers.txt format and content
+20170814,20170816,"Fall 2017 version 2D, 8/14/17",https://cdn.mbtace.com/archive/20170814.zip,Green-B Comm Ave suspension through 8/15/17; Newburyport/Rockport Line and Needham Line weekend changes
+20170809,20170813,"Fall 2017 version 1D, 8/08/17",https://cdn.mbtace.com/archive/20170809.zip,"Fall 2017 rating, also changes to ferry route organization"
+20170802,20170808,"Summer 2017 version 12D, 8/02/17",https://cdn.mbtace.com/archive/20170802.zip,Correction in Newburyport schedule from version 11D
+20170801,20170801,"Summer 2017 version 11D, 8/01/17",https://cdn.mbtace.com/archive/20170801.zip,Lowell Line weekend shuttle schedule added through October 1
+20170719,20170731,"Summer 2017 version 10D, 7/19/17",https://cdn.mbtace.com/archive/20170719.zip,"Fixes bug in Newburyport/Rockport construction schedule (Trains 110, 129), CapeFlyer schedule change for 7/22/17, extend summer schedule until 9/02/17"
+20170717,20170718,"Summer 2017 version 9D, 7/17/17",https://cdn.mbtace.com/archive/20170717.zip,Remove duplicate Green-B trips during Comm Ave bridge construction period
+20170713,20170716,"Summer 2017 version 8D, 7/13/17",https://cdn.mbtace.com/archive/20170713.zip,"Correction in Green-B shuttles, changes to Framingham/Worcester Line weekend schedule during Comm Ave bridge construction period"
+20170706,20170712,"Summer 2017 version 7D, 7/6/17",https://cdn.mbtace.com/archive/20170706.zip,New trip_short_name for Newburyport/Rockport weekend shuttles
+20170704,20170705,"Summer 2017 version 5D, 7/4/17",https://cdn.mbtace.com/archive/20170704.zip,Corrected Commuter Rail schedule for July 4th
+20170629,20170703,"Summer 2017 version 4D, 6/29/17",https://cdn.mbtace.com/archive/20170629.zip,"Newburyport/Rockport construction schedule, July 4th late night service"
+20170622,20170628,"Summer 2017 version 3D, 6/22/17",https://cdn.mbtace.com/archive/20170622.zip,Adds shuttle bus and western Green-B schedule for Comm Ave bridge construction period
+20170608,20170615,"Summer 2017 version 2D, 6/8/17",https://cdn.mbtace.com/archive/20170608.zip,"Correct names for Sail Boston extra CR trips, summer 2017 boat schedule changes and blocks for trips on routes Boat-F1 and Boat-F3"
+20170517,20170607,"Spring 2017 version 12D, 5/17/17",https://cdn.mbtace.com/archive/20170517.zip,Added extra commuter rail trips for Sail Boston
+20170509,20170516,"Spring 2017 version 11D, 5/9/17",https://cdn.mbtace.com/archive/20170509.zip,Changed departure time for train 512
+20170503,20170508,"Spring 2017 version 10D, 5/3/17",https://cdn.mbtace.com/archive/20170503.zip,Corrections to boat and commuter rail schedules
+20170427,20170502,"Spring 2017 version 9D, 4/27/17",https://cdn.mbtace.com/archive/20170427.zip,"Changed River Works/GE Employees Only stop_name and stop_desc, adds extra stop_times for Massport shuttle loops"
+20170421,20170426,"Spring 2017 version 8D, 4/21/17",https://cdn.mbtace.com/archive/20170421.zip,"Adds leading zeroes to spring commuter rail trips, adds spring commuter rail trips to multi_route_trips.txt"
+20170411,20170418,"Spring 2017 version 6D, 4/11/17",https://cdn.mbtace.com/archive/20170411.zip,Correct names for Patriots' Day extra trips
+20170407,20170410,"Spring 2017 version 5D, 4/7/17",https://cdn.mbtace.com/archive/20170407.zip,"Adds trips for Patriots' Day, modifies Worcester Train 512 schedule"
+20170315,20170406,"Spring 2017 version 4D, 3/15/17",https://cdn.mbtace.com/archive/20170315.zip,Added multi_route_trips.txt and added timepoint field to stop_times.txt
+20170313,20170314,"Spring 2017 version 3D, 3/13/17",https://cdn.mbtace.com/archive/20170313.zip,Includes SevereWeatherBlue schedule for 3/14/17
+20170228,20170312,"Spring 2017 version 2D, 3/2/17",https://cdn.mbtace.com/archive/20170228.zip,Spring 2017 rating (with corrected trip_headsign for Green-B inbound from Park St. to Park Street)
+20161221,20170227,"Winter 2017 version 5D, 2/2/17",https://cdn.mbtace.com/archive/20170202.zip,"Added leading zeroes to commuter rail, Added Rental Car Center to Logan Shuttle stops, Removed Route 431"
+20161103,20161220,"Fall 2016 version 4D, 11/3/16",https://cdn.mbtace.com/archive/20161103.zip,New commuter rail schedule effective Nov. 21
+20160921,20161102,"Fall 2016 version 3D, 9/21/16",https://cdn.mbtace.com/archive/20160922.zip,"Added route_color and route_text_color for ferries, also initial Wachusett station opening schedule"
+20160819,20160921,"Fall 2016 version 2D, 8/19/16",https://cdn.mbtace.com/archive/20160819.zip,
+20160610,20160818,"Summer 2016 version 2D, 6/15/16",https://cdn.mbtace.com/archive/20160615.zip,
+20160513,20160610,"Spring 2016 version 3D, 5/13/16",https://cdn.mbtace.com/archive/20160513.zip,Includes new Commuter Rail schedule effective 5/23/2016
+20160309,20160512,"Spring 2016 version 1D, 3/9/16",https://cdn.mbtace.com/archive/20160309.zip,Includes special schedule for Government Center re-opening
+20151211,20160308,"Winter 2016  version 4D, 12/23/15",https://cdn.mbtace.com/archive/20151211.zip,"headsign_text shortened for many bus trips, Heath Street station split into IB/OB"
+20151201,20151210,"Fall 2015 version 4D, 12/3/15",https://cdn.mbtace.com/archive/20151201.zip,"Change to Fitchburg Line schedule, correction of version 3D"
+20151127,20151130,"Fall 2015 version 2D, 11/27/15",https://cdn.mbtace.com/archive/20151127.zip,Minor change to Framingham/Worcester Line schedule
+20150821,20151126,"Fall 2015 version 1D, 8/21/15",https://cdn.mbtace.com/archive/20150821.zip,Update to Haverhill Line temporary schedule
+20150618,20150820,"Summer 2015 version 3D, 8/3/15",https://cdn.mbtace.com/archive/20150618.zip,"Updated Fairmount and Franklin Line schedules, updated various CR stop locations"
+20150605,20150617,"Summer 2015 version 1D, 6/5/15",https://cdn.mbtace.com/archive/20150605.zip,Standardize stop_sequence values for subway line
+20150424,20150604,"Spring 2015 version 7D, 4/24/15",https://cdn.mbtace.com/archive/20150424.zip,Minor change to Needham Line schedule
+20150417,20150423,"Spring 2015 version 6D, 4/17/15",https://cdn.mbtace.com/archive/20150417.zip,Some trips moved from Green-C to Green-B route_ids
+20150320,20150416,"Spring 2015 version 4D, 3/20/15",https://cdn.mbtace.com/archive/20150320.zip,Commuter rail changes
+20150312,20150319,"Spring 2015 version 3D, 3/12/15",https://cdn.mbtace.com/archive/20150312.zip,"Commuter rail changes, changed subway route_ids to match customer-facing info, added route_sort_order and route_desc fields to routes.txt, added wheelchair_boarding and wheelchair_accessible fields to stops.txt, made pickup_type + drop_off_type fields consistent"
+20150227,20150311,"Winter 2015 version 3D, 2/27/15",https://cdn.mbtace.com/archive/20150227.zip,
+20150219,20150226,"Winter 2015 version 2D, 2/19/15",https://cdn.mbtace.com/archive/20150219.zip,Commuter rail changes to reflect Service Recovery Schedule
+20141212,20150218,"Winter 2015 version 1D, 12/12/14",https://cdn.mbtace.com/archive/20141212.zip,Moved Yawkey location
+20141120,20141211,"Fall 2014 version 3D, 11/20/14",https://cdn.mbtace.com/archive/20141120.zip,"Fairmount Line added weekend service, fixed shapes for Middleboro/Lakeville line"
+20140815,20141119,"Fall 2014 version 2D, 8/15/14",https://cdn.mbtace.com/archive/20140815.zip,"Assembly Station added, stop_names changed to reflect naming conventions"
+20140725,20140814,"Summer 2014 version 3D, 7/25/14",https://cdn.mbtace.com/archive/20140725.zip,Updated Fitchburg Line schedule + no weekend service on Fitchburg Line
+20140606,20140724,"Summer 2014 version 2D, 6/6/14",https://cdn.mbtace.com/archive/20140606.zip,
+20140530,20140605,"Summer 2014 version 1D, 5/30/14",https://cdn.mbtace.com/archive/20140530.zip,"CR train numbers removed from trip_headsign field, added to trip_short_name"
+20140404,20140529,"Spring 2014 version 4D, 5/8/14",https://cdn.mbtace.com/archive/20140404.zip,
+20140307,20140403,"Spring 2014 version 2D, 3/13/14",https://cdn.mbtace.com/archive/20140307.zip,"New Worcester Line schedules, trip_short_name added, Government Center closed"
+20140122,20140306,"Winter 2014 version 3D, 1/22/14",https://cdn.mbtace.com/archive/20140122.zip,
+20140110,20140121,"Winter 2014 version 2D, 1/10/14",https://cdn.mbtace.com/archive/20140110.zip,
+20131213,20140109,"Winter 2014 version 1D, 12/13/13",https://cdn.mbtace.com/archive/20131213.zip,
+20131115,20131212,"Fall 2013 version 5D, 11/15/13",https://cdn.mbtace.com/archive/20131115.zip,
+20131101,20131114,"Fall 2013 version 4D, 11/1/13",https://cdn.mbtace.com/archive/20131101.zip,
+20131004,20131031,"Fall 2013 version 3D, 10/4/13",https://cdn.mbtace.com/archive/20131004.zip,
+20130816,20131003,"Fall 2013 version 2D, 8/19/13",https://cdn.mbtace.com/archive/20130816.zip,"Key Bus Route Improvement Program resulted in many bus stops moved, added shape files for commuter rail lines"
+20130625,20130815,"Summer 2013 version 3D, 6/25/13",https://cdn.mbtace.com/archive/20130625.zip,
+20130621,20130624,"Summer 2013 version 2D, 6/21/13",https://cdn.mbtace.com/archive/20130621.zip,
+20130607,20130620,"Summer 2013 version 1D, 6/7/13",https://cdn.mbtace.com/archive/20130607.zip,
+20130503,20130606,"Spring 2013 version 3D, 5/3/13",https://cdn.mbtace.com/archive/20130503.zip,
+20130425,20130502,"Spring 2013 version 2D, 4/25/13",https://cdn.mbtace.com/archive/20130425.zip,
+20130308,20130424,"Spring 2013 version 1D, 3/8/13",https://cdn.mbtace.com/archive/20130308.zip,
+20121214,20130307,"Winter 2013 version 1D, 12/14/12",https://cdn.mbtace.com/archive/20121214.zip,
+20121031,20121213,"Fall 2012 version 4D, 10/31/12",https://cdn.mbtace.com/archive/20121031.zip,
+20121019,20121030,"Fall 2012 version 3D, 10/19/12",https://cdn.mbtace.com/archive/20121019.zip,
+20120924,20121018,"Fall 2012 version 2D, 9/24/12",https://cdn.mbtace.com/archive/20120924.zip,
+20120817,20120923,"Fall 2012 version 1D, 8/17/12",https://cdn.mbtace.com/archive/20120817.zip,
+20120622,20120816,"Summer 2012 version 2D, 6/22/12",https://cdn.mbtace.com/archive/20120622.zip,
+20120615,20120621,"Summer 2012 version 1D, 6/15/12",https://cdn.mbtace.com/archive/20120615.zip,
+20120413,20120614,"Spring 2012 version 3D, 4/13/12",https://cdn.mbtace.com/archive/20120413.zip,
+20120328,20120412,"Spring 2012 version 2D, 3/28/12",https://cdn.mbtace.com/archive/20120328.zip,
+20120309,20120411,"Spring 2012 version 1D, 3/9/12",https://cdn.mbtace.com/archive/20120309.zip,
+20120127,20120308,"Winter 2012 version 3D, 1/27/12",https://cdn.mbtace.com/archive/20120127.zip,
+20120106,20120126,"Winter 2012 version 2D, 1/6/12",https://cdn.mbtace.com/archive/20120106.zip,
+20111216,20120105,"Winter 2012 version 1D, 12/16/11",https://cdn.mbtace.com/archive/20111216.zip,
+20111117,20111215,"Fall 2011 version 6D, 11/17/11",https://cdn.mbtace.com/archive/20111117.zip,
+20111110,20111116,"Fall 2011 version 5D, 11/10/11",https://cdn.mbtace.com/archive/20111110.zip,
+20110909,20111109,"Fall 2011 version 4D, 9/9/11",https://cdn.mbtace.com/archive/20110909.zip,
+20110818,20110908,"Fall 2011 version 2D, 8/18/11",https://cdn.mbtace.com/archive/20110818.zip,
+20110611,20110817,"Summer 2011 version 1D (Published), 6/10/11",https://cdn.mbtace.com/archive/20110611.zip,
+20110411,20110610,"Spring 2011 version 5D (published), 4/11/11",https://cdn.mbtace.com/archive/20110411.zip,"This was the first time feed_info.txt was included in the published GTFS, although it has been added to all previous GTFS"
+20110325,20110410,"GTFS file for developers, published 3/25/11",https://cdn.mbtace.com/archive/20110325.zip,
+20110318,20110324,"GTFS file for developers, published 3/18/11",https://cdn.mbtace.com/archive/20110318.zip,
+20110308,20110317,"GTFS file for developers, published 3/8/11",https://cdn.mbtace.com/archive/20110308.zip,
+20110107,20110307,"GTFS file for developers, published 1/7/11",https://cdn.mbtace.com/archive/20110107.zip,
+20101231,20110106,"GTFS file for developers, published 12/31/10",https://cdn.mbtace.com/archive/20101231.zip,
+20101203,20101230,"GTFS file for developers, published 12/3/10",https://cdn.mbtace.com/archive/20101203.zip,
+20101119,20101202,"GTFS file for developers, published 11/19/10",https://cdn.mbtace.com/archive/20101119.zip,
+20101015,20101118,"GTFS file for developers, published 10/15/10",https://cdn.mbtace.com/archive/20101015.zip,
+20100903,20101014,"GTFS file for developers, published 9/3/10",https://cdn.mbtace.com/archive/20100903.zip,
+20100820,20100902,"GTFS file for developers, published 8/20/10",https://cdn.mbtace.com/archive/20100820.zip,
+20100625,20100819,"GTFS file for developers, published 6/25/10",https://cdn.mbtace.com/archive/20100625.zip,
+20100611,20100624,"GTFS file for developers, published 6/11/10",https://cdn.mbtace.com/archive/20100611.zip,
+20100312,20100610,"GTFS file for developers, published 3/12/10",https://cdn.mbtace.com/archive/20100312.zip,
+20100115,20100311,"GTFS file for developers, published 1/15/10",https://cdn.mbtace.com/archive/20100115.zip,
+20091211,20100114,"GTFS file for developers, published 12/11/09",https://cdn.mbtace.com/archive/20091211.zip,
+20091106,20091210,"GTFS file for developers, published 11/06/09",https://cdn.mbtace.com/archive/20091106.zip,
+20091002,20091105,"GTFS file for developers, published 10/02/09",https://cdn.mbtace.com/archive/20091002.zip,
+20090821,20091001,"GTFS file for developers, published 8/21/09",https://cdn.mbtace.com/archive/20090821.zip,
+20090814,20090820,"GTFS file for developers, published 8/14/09",https://cdn.mbtace.com/archive/20090814.zip,
+20090703,20090813,"GTFS file for Google Transit, published 7/3/09",https://cdn.mbtace.com/archive/20090703.zip,
+20090626,20090702,"GTFS file for Google Transit, published 6/26/09",https://cdn.mbtace.com/archive/20090626.zip,
+20090612,20090625,"GTFS file for Google Transit, published 6/12/09",https://cdn.mbtace.com/archive/20090612.zip,
+20090605,20090611,"GTFS file for Google Transit, published 6/5/09",https://cdn.mbtace.com/archive/20090605.zip,
+20090529,20090604,"GTFS file for Google Transit, published 5/29/09",https://cdn.mbtace.com/archive/20090529.zip,
+20090515,20090528,"GTFS file for Google Transit, published 5/15/09",https://cdn.mbtace.com/archive/20090515.zip,
+20090424,20090514,"GTFS file for Google Transit, published 4/24/09",https://cdn.mbtace.com/archive/20090424.zip,
+20090409,20090423,"GTFS file for Google Transit, published 4/9/09",https://cdn.mbtace.com/archive/20090409.zip,
+20090403,20090408,"GTFS file for Google Transit, published 4/3/09",https://cdn.mbtace.com/archive/20090403.zip,
+20090313,20090402,"GTFS file for Google Transit, published 3/13/09",https://cdn.mbtace.com/archive/20090313.zip,
