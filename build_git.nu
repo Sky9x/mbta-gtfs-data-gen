@@ -63,6 +63,15 @@ cp -v ../built-readme.md README.md
 git add -v README.md
 git commit -vv -m "Add README.md"
 
+print ""
+print ""
+
+git gc --aggressive
+
+print ""
+
+git remote -v add origin git@github.com:Sky9x/mbta-gtfs-data.git
+
 def commit-msg [feed] {
     let start = $feed.feed_start_date | format date "%D"
     let end = $feed.feed_end_date | format date "%D"
