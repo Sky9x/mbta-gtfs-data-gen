@@ -5,7 +5,7 @@ on:
   schedule:
     # run every day at 23:18 UTC
     # random time when runners should be available
-    - cron: "18 23 * * *"
+    - cron: '18 23 * * *'
 
 permissions:
   contents: write
@@ -29,18 +29,18 @@ jobs:
       - id: date
         name: Format Date For Commit Message
         env:
-          TZ: "America/New_York"
+          TZ: 'America/New_York'
         run: |
-          echo "date=(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
-          echo "datetime=(date +'%Y-%m-%d %H:%M %Z')" >> "$GITHUB_OUTPUT"
+          echo 'date=(date +'%Y-%m-%d')' >> '$GITHUB_OUTPUT'
+          echo 'datetime=(date +'%Y-%m-%d %H:%M %Z')' >> '$GITHUB_OUTPUT'
 
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: ${{ github.event_name == 'workflow_dispatch'
-            && "Manual Feed Refresh - ${{ steps.date.outputs.datetime }}"
-            || "Automated Feed Refresh - ${{ steps.date.outputs.date }}" }}
+            && 'Manual Feed Refresh - ${{ steps.date.outputs.datetime }}'
+            || 'Automated Feed Refresh - ${{ steps.date.outputs.date }}' }}
           commit_author: ${{
             github.event_name == 'workflow_dispatch'
-            && "${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>"
-            || "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+            && '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>'
+            || 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
             }}
