@@ -7,14 +7,14 @@ let archived_feeds = open archived_feeds.txt --raw | from csv --no-infer
 
 if not ("archived_feeds" | path exists) {
     mkdir archived_feeds
-    "filename,mtime\n" | save archived_feeds/file_times.csv
+    "filename,mtime\n" | save file_times.csv
 }
 
 # -- Update All Feeds --
 
 cd archived_feeds
 
-let file_times = open file_times.csv --raw | from csv --no-infer
+let file_times = open ../file_times.csv --raw | from csv --no-infer
 
 # restore file mtimes for use with wget -N (git doesn't save them)
 for $it in $file_times {
@@ -32,5 +32,5 @@ if $file_times == $new_file_times {
     print "no new archives"
 } else {
     print "some archives were updated"
-    $new_file_times | save file_times.csv --force
+    $new_file_times | save ../file_times.csv --force
 }
