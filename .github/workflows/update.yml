@@ -1,0 +1,46 @@
+name: Daily Feed Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    # run every day at 23:18 UTC
+    # random time when runners should be available
+    - cron: "18 23 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nushell
+        uses: jaxxstorm/action-install-gh-release@v2
+        with:
+          repo: nushell/nushell
+          tag: 0.107.0
+
+      - name: Run Update Feeds Script
+        run: nu update_feeds.nu
+
+      - id: date
+        name: Format Date For Commit Message
+        env:
+          TZ: "America/New_York"
+        run: |
+          echo "date=(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "datetime=(date +'%Y-%m-%d %H:%M %Z')" >> "$GITHUB_OUTPUT"
+
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: ${{ github.event_name == 'workflow_dispatch'
+            && "Manual Feed Refresh - ${{ steps.date.outputs.datetime }}"
+            || "Automated Feed Refresh - ${{ steps.date.outputs.date }}" }}
+          commit_author: ${{
+            github.event_name == 'workflow_dispatch'
+            && "${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>"
+            || "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+            }}
