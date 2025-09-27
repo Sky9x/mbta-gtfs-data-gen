@@ -15,7 +15,10 @@ jobs:
     name: Update
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Sparse Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: '.'
 
       - name: Install Nushell
         uses: jaxxstorm/action-install-gh-release@v2.1.0
@@ -23,24 +26,25 @@ jobs:
           repo: nushell/nushell
           tag: 0.107.0
 
-      - name: Run Update Feeds Script
-        run: nu update_feeds.nu
-
       - id: date
         name: Format Date For Commit Message
         env:
           TZ: 'America/New_York'
         run: |
-          echo 'date=(date +'%Y-%m-%d')' >> '$GITHUB_OUTPUT'
-          echo 'datetime=(date +'%Y-%m-%d %H:%M %Z')' >> '$GITHUB_OUTPUT'
+          echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "datetime=$(date +'%Y-%m-%d %H:%M %Z')" >> "$GITHUB_OUTPUT"
 
-      - uses: stefanzweifel/git-auto-commit-action@v6
+      - name: Run Update Feeds Script
+        run: nu gha_update_feeds.nu
+
+      - name: Commit & Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
+          add_options: --sparse
           commit_message: ${{ github.event_name == 'workflow_dispatch'
-            && 'Manual Feed Refresh - ${{ steps.date.outputs.datetime }}'
-            || 'Automated Feed Refresh - ${{ steps.date.outputs.date }}' }}
-          commit_author: ${{
-            github.event_name == 'workflow_dispatch'
-            && '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>'
+            && format('Manual Feed Refresh - {0}', steps.date.outputs.datetime)
+            || format('Automated Feed Refresh - {0}', steps.date.outputs.date) }}
+          commit_author: ${{ github.event_name == 'workflow_dispatch'
+            && format('{0} <{1}+{0}@users.noreply.github.com>', github.actor, github.actor_id)
             || 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
             }}
