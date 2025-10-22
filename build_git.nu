@@ -66,11 +66,17 @@ git commit -vv -m "Add README.md"
 print ""
 print ""
 
-git gc --aggressive
+git gc
 
 print ""
 
+let branch = date now | format date "%F"
 git remote -v add origin git@github.com:Sky9x/mbta-gtfs-data.git
+git push --set-upstream origin $branch
+
+print $"consider running `gh repo edit \"Sky9x/mbta-gtfs-data\" --default-branch ($branch)`"
+
+# --
 
 def commit-msg [feed] {
     let start = $feed.feed_start_date | format date "%D"
