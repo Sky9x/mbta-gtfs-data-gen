@@ -24,7 +24,7 @@ jobs:
         uses: jaxxstorm/action-install-gh-release@v2.1.0
         with:
           repo: nushell/nushell
-          tag: 0.107.0
+          tag: 0.109.1
 
       - id: date
         name: Format Date For Commit Message
