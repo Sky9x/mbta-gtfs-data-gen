@@ -56,7 +56,7 @@ jobs:
     name: Build Git History
     runs-on: ubuntu-latest
     needs: update
-    if: ${{ needs.update.outputs.changes_detected }}
+    if: ${{ needs.update.outputs.changes_detected == 'true' }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6
