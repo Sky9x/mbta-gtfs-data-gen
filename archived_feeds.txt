@@ -1,5 +1,6 @@
 feed_start_date,feed_end_date,feed_version,archive_url,archive_note
-20260327,20260613,"Spring 2026, 2026-04-03T18:45:06+00:00, version D",https://cdn.mbtace.com/archive/20260327.zip,
+20260328,20260613,"Spring 2026, 2026-04-04T23:34:29+00:00, version D",https://cdn.mbtace.com/archive/20260328.zip,
+20260327,20260327,"Spring 2026, 2026-04-03T18:45:06+00:00, version D",https://cdn.mbtace.com/archive/20260327.zip,
 20260323,20260326,"Spring 2026, 2026-03-30T21:02:11+00:00, version D",https://cdn.mbtace.com/archive/20260323.zip,
 20260320,20260322,"Spring 2026, 2026-03-27T18:55:10+00:00, version D",https://cdn.mbtace.com/archive/20260320.zip,
 20260319,20260319,"Spring 2026, 2026-03-26T22:58:34+00:00, version D",https://cdn.mbtace.com/archive/20260319.zip,
