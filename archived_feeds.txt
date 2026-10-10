@@ -1,5 +1,6 @@
 feed_start_date,feed_end_date,feed_version,archive_url,archive_note
-20260929,20261212,"Fall 2026, 2026-10-06T18:13:43+00:00, version D",https://cdn.mbtace.com/archive/20260929.zip,
+20261001,20261212,"Fall 2026, 2026-10-08T21:19:10+00:00, version D",https://cdn.mbtace.com/archive/20261001.zip,
+20260929,20260930,"Fall 2026, 2026-10-06T18:13:43+00:00, version D",https://cdn.mbtace.com/archive/20260929.zip,
 20260925,20260928,"Fall 2026, 2026-10-02T16:00:50+00:00, version D",https://cdn.mbtace.com/archive/20260925.zip,
 20260922,20260924,"Fall 2026, 2026-09-29T18:48:19+00:00, version D",https://cdn.mbtace.com/archive/20260922.zip,
 20260917,20260921,"Fall 2026, 2026-09-24T17:51:42+00:00, version D",https://cdn.mbtace.com/archive/20260917.zip,
